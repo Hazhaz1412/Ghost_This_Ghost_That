@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Fader))]
-public class IntroTransition : MonoBehaviour
+public class IntroSceneManager : MonoBehaviour
 {
     [SerializeField]
     private float _waitDuration;
