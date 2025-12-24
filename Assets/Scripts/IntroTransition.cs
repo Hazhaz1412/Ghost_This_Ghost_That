@@ -8,14 +8,14 @@ public class IntroTransition : MonoBehaviour
     [SerializeField]
     private float _waitDuration;
 
-    private Fader _fader;
+    private Fader _overlayFader;
     private float _waitTimer;
     private bool _isWaiting;
     private bool _transitionFinished;
 
     private void Awake()
     {
-        _fader = GetComponent<Fader>();
+        _overlayFader = GetComponent<Fader>();
         _waitTimer = _waitDuration;
         _isWaiting = false;
         _transitionFinished = false;
@@ -23,9 +23,9 @@ public class IntroTransition : MonoBehaviour
 
     private void Start()
     {
-        _fader.OnFadeInFinish += OnFadeInFinished;
-        _fader.OnFadeOutFinish += OnFadeOutFinished;
-        _fader.FadeIn();
+        _overlayFader.OnFadeInFinish += OnFadeInFinished;
+        _overlayFader.OnFadeOutFinish += OnFadeOutFinished;
+        _overlayFader.FadeOut();
 
         StartCoroutine(LoadMainMenu());
     }
@@ -38,19 +38,19 @@ public class IntroTransition : MonoBehaviour
             if (_waitTimer <= 0)
             {
                 _isWaiting = false;
-                _fader.FadeOut();
+                _overlayFader.FadeIn();
             }
         }
     }
 
     private void OnFadeInFinished()
     {
-        _isWaiting = true;
+        _transitionFinished = true;
     }
 
     private void OnFadeOutFinished()
     {
-        _transitionFinished = true;
+        _isWaiting = true;
     }
 
     private IEnumerator LoadMainMenu()
