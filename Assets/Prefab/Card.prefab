@@ -257,6 +257,81 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &6026021896269732392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7962404567912637335}
+  - component: {fileID: 4809946371352444311}
+  - component: {fileID: 8857892118619698402}
+  m_Layer: 5
+  m_Name: CardImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7962404567912637335
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6026021896269732392}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4833040852118768124}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0, y: -0}
+  m_SizeDelta: {x: 250, y: 350}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4809946371352444311
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6026021896269732392}
+  m_CullTransparentMesh: 1
+--- !u!114 &8857892118619698402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6026021896269732392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -7621089742869468187, guid: cbabaa6a39c072ad28cdf4396320748c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &6734341105316361816
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,6 +362,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8363809026830738741}
+  - {fileID: 7962404567912637335}
   - {fileID: 3112657430037208228}
   - {fileID: 533117111012298115}
   m_Father: {fileID: 0}
@@ -309,15 +385,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Game::Card
   data:
-    id: 0
-    cardName: 
+    id: c001
+    cardType: 0
+    spellType: 0
+    cardName: Am Binh
     cardSprite: {fileID: 0}
-    hp: 0
-    dmg: 0
-    cost: 0
-    description: 
+    hp: 2
+    dmg: 2
+    cost: 3
+    description: "- Khi t\xF4i ch\u1EBFt, H\u1ED3i sinh t\xF4i khi b\u1EAFt \u0111\u1EA7u
+      v\xF2ng sau v\xE0 ban t\xF4i +1/ +1 v\u1EDBi m\u1ED7i l\u1EA7n t\xF4i \u0111\xE3
+      ch\u1EBFt.  - T\xF4i kh\xF4ng th\u1EC3 th\u1EE7. "
+    skill: 
     countInDeck: 0
-  cardImage: {fileID: 4176262804001472738}
+  cardImage: {fileID: 0}
   countText: {fileID: 7428459238160804907}
   cardButton: {fileID: 1213700462216029013}
 --- !u!1 &7647147475691206349
@@ -385,7 +466,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7621089742869468187, guid: cbabaa6a39c072ad28cdf4396320748c, type: 3}
+  m_Sprite: {fileID: -4571828015118065507, guid: 735489917ebe0ce768d9a421ffd5cb0b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

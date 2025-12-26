@@ -25,7 +25,8 @@ public class CardDataInfo : MonoBehaviour
     };
 
     void Start()
-    {
+    {   
+
         for (int i = 0; i < 30; i++)
         {
             cardDatas[i] = new CardData();

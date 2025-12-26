@@ -17,6 +17,7 @@ public enum SpellType
     Burst,
 }
 
+
 [Serializable]
 public class CardData
 {
@@ -36,13 +37,12 @@ public class CardData
 public class Card : MonoBehaviour
 {
     public CardData data;
-    
-    [SerializeField] private Image cardImage;      
-    [SerializeField] private TextMeshProUGUI countText; 
-    [SerializeField] private Button cardButton; 
-    
+
+    [SerializeField] private Image cardImage;
+    [SerializeField] private TextMeshProUGUI countText;
+    [SerializeField] private Button cardButton;
     public event Action<Card> OnCardClicked;
-    
+
     void Awake()
     {
         if (cardButton != null)
@@ -50,26 +50,26 @@ public class Card : MonoBehaviour
             cardButton.onClick.AddListener(OnClick);
         }
     }
-    
+
     public void Setup(CardData cardData)
     {
         data = cardData;
         UpdateUI();
     }
-    
+
     public void UpdateUI()
     {
         if (data == null) return;
-        
+
         if (cardImage != null && data.cardSprite != null)
         {
             cardImage.sprite = data.cardSprite;
         }
-        
+
         UpdateCountDisplay();
         UpdateCountDisplay();
     }
-    
+
     void OnClick()
     {
         OnCardClicked?.Invoke(this);
