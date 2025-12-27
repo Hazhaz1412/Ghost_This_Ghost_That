@@ -2,10 +2,12 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine.UI;
+using System.Diagnostics;
 
 
 public class DeckManager : MonoBehaviour
 {
+    public static DeckManager Instance;
     [Header("Card Database")]
     public CardDataInfo cardDatabase;
     public RectTransform deckContent;
@@ -16,19 +18,29 @@ public class DeckManager : MonoBehaviour
     public GameObject userDeckPrefab;
 
 
-    private Dictionary<string, Card> userDeck = new();
+    private Dictionary<string, int> userDeck = new();
     private Dictionary<string, Card> deck = new();
+
+    void Awake()
+    {
+        Instance = this;
+    }
 
     void Start()
     {
         StartCoroutine(Init()); 
     }
 
-    void Update()
-    {
-        
+    public static void CardInteract(string idCard) {
+        if (Instance.deck[idCard].data.countInDeck == 0) {
+            UnityEngine.Debug.Log("You have reach maximum");
+        } else {
+            Instance.deck[idCard].data.countInDeck--;
+            // Lấy CardData từ deck và truyền vào
+            Instance.AddUserCard(Instance.deck[idCard].data);
+            UnityEngine.Debug.Log("+1");
+        }
     }
-
 
 
     IEnumerator Init()
@@ -62,6 +74,23 @@ public class DeckManager : MonoBehaviour
         else
             folder = "UtilityCard";
         return Resources.Load<Sprite>($"{folder}/{id}");
+    }
+    public void AddUserCard(CardData data) {
+        if (userDeck.ContainsKey(data.id))
+        {
+            userDeck[data.id]++;
+            return;
+        }
+        userDeck[data.id] = 1;
+        GameObject obj = Instantiate(userDeckPrefab, userDeckContent);
+        Card cardUI = obj.GetComponent<Card>();
+        cardUI.Setup(data);
+        Transform imgTf = obj.transform.Find("Background");
+        if (imgTf != null)
+        {
+            var image = imgTf.GetComponent<UnityEngine.UI.Image>();
+            image.sprite = LoadSprite(data.id);
+        }
     }
     public void AddCard(CardData data)
     {

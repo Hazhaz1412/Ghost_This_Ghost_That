@@ -42,7 +42,7 @@ public class Card : MonoBehaviour
     [SerializeField] private TextMeshProUGUI countText;
     [SerializeField] private Button cardButton;
 
-    public event Action<Card> OnCardClicked;
+    //public event Action<Card> OnCardClicked;
 
     void Awake()
     {
@@ -58,7 +58,8 @@ public class Card : MonoBehaviour
     public void OnClick()
     {
         //OnCardClicked?.Invoke(this);
-        Debug.Log("Click: " + data.id);
+        DeckManager.CardInteract(data.id);
+        UnityEngine.Debug.Log("Clicked !" + data.id);
     }
 
     public void SetCount(int count)
