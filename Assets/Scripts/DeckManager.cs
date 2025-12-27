@@ -1,30 +1,44 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
+using UnityEngine.UI;
+
 
 public class DeckManager : MonoBehaviour
 {
     [Header("References")]
     public CardDataInfo cardDatabase;
-    public Transform deckContent;
+    public RectTransform deckContent;
     public GameObject cardPrefab;
 
     private Dictionary<string, Card> deck = new();
 
     void Start()
     {
-        LoadInitialDeck();
+        StartCoroutine(Init()); 
     }
-
-    void LoadInitialDeck()
+    IEnumerator Init()
     {
-        foreach (var cardData in cardDatabase.cardDatas)
+        yield return null;  
+
+        foreach (var data in cardDatabase.cardDatas)
         {
-            if (cardData.countInDeck > 0)
-            {
-                AddCard(cardData);
-            }
+            if (data.countInDeck > 0)
+                AddCard(data);
         }
+
+        LayoutRebuilder.ForceRebuildLayoutImmediate(deckContent);
     }
+    // void LoadInitialDeck()
+    // {
+    //     foreach (var cardData in cardDatabase.cardDatas)
+    //     {
+    //         if (cardData.countInDeck > 0)
+    //         {
+    //             AddCard(cardData);
+    //         }
+    //     }
+    // }
     private Sprite LoadSprite(string id)
     {
         string folder = "";

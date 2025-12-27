@@ -12,4 +12,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc1bdda91e9a47f459bdff0a2443c7ab, type: 3}
   m_Name: CardSpriteDatabase
   m_EditorClassIdentifier: Game::CardSpriteDatabase
-  entries: []
+  entries:
+  - id: c001
+    sprite: {fileID: -7621089742869468187, guid: cbabaa6a39c072ad28cdf4396320748c, type: 3}
+  - id: c002
+    sprite: {fileID: 3401451518307140387, guid: 8de3bcb36aeea69d5809e2434827884c, type: 3}
+  - id: c003
+    sprite: {fileID: -3102427922120098622, guid: 339a7d6a19c764824ab6ca86768273fe, type: 3}
+  - id: c004
+    sprite: {fileID: 68307919783775335, guid: 38a92b4f072db0feeb571f4e79d03d2b, type: 3}
+  - id: c005
+    sprite: {fileID: -4566756016220773861, guid: ccff5d2d4bf2cf360bcf9cc0b87fc562, type: 3}
+  - id: c006
+    sprite: {fileID: 8336970832418947090, guid: 3174a0b59424909d4ad026a9c41534b5, type: 3}
+  - id: c007
+    sprite: {fileID: -6394812089464899052, guid: 8e7b87254eca0f1c392917b40c369fa0, type: 3}
+  - id: c008
+    sprite: {fileID: -2521919039583408835, guid: 08259ad9d5a5a79dbacaa5e13cb2c7fd, type: 3}
+  - id: c009
+    sprite: {fileID: -8731929918400773848, guid: eff5698030445330abf81c8c2d78dd6f, type: 3}
+  - id: c010
+    sprite: {fileID: 7789923203057303964, guid: 85f5e0c468f12b5e594eec129a4173b3, type: 3}
+  - id: c011
+    sprite: {fileID: 3610142602427425209, guid: 8087df50e1916c07f97bc76252d7d65a, type: 3}
+  - id: c012
+    sprite: {fileID: -4655861349910004374, guid: 8bc6ebb483280fb069807f8c870cdb60, type: 3}
+  - id: c013
+    sprite: {fileID: -6418048785131918014, guid: bb7bedeba1300b1328a077144dcb129a, type: 3}
+  - id: c014
+    sprite: {fileID: 6925385092598718152, guid: 425a902eca2c0135691facaa7cf39ae0, type: 3}
+  - id: c015
+    sprite: {fileID: -8154739099284800569, guid: 3bb9621a99826f470972b4989f66b5ec, type: 3}
+  - id: c016
+    sprite: {fileID: -9095890118722363734, guid: 287853b5d9ed24e92a911ee4962d89b5, type: 3}
+  - id: c017
+    sprite: {fileID: -5653749057018279304, guid: f07466ca822d8542881f0326dfc66aff, type: 3}
+  - id: c018
+    sprite: {fileID: 4615660953304558181, guid: 93216616fa54d438fbe521664871f1aa, type: 3}
+  - id: c019
+    sprite: {fileID: -7355959858302769653, guid: 42f29bbf1cd60321e9a2726e962a6d4b, type: 3}
+  - id: c020
+    sprite: {fileID: -8578353589967120188, guid: 8db742688b05be7118ff348ca09c789c, type: 3}

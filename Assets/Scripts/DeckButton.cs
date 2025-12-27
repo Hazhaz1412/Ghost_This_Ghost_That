@@ -5,7 +5,10 @@ public class DeckButton : MonoBehaviour
     [SerializeField]
     private DeckActive deckActive;
 
-    // Called by the UI Button to activate the deck
+    void Start()
+    {
+    }
+
     public void OnClick()
     {
         if(deckActive.deckState == DeckActive.DeckState.Active)
