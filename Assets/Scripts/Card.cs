@@ -41,67 +41,55 @@ public class Card : MonoBehaviour
     [SerializeField] private Image cardImage;
     [SerializeField] private TextMeshProUGUI countText;
     [SerializeField] private Button cardButton;
+
     public event Action<Card> OnCardClicked;
 
     void Awake()
     {
-        if (cardButton != null)
-        {
-            cardButton.onClick.AddListener(OnClick);
-        }
+        // if (cardButton != null)
+        //     cardButton.onClick.AddListener(OnClick);
     }
-
     public void Setup(CardData cardData)
     {
         data = cardData;
         UpdateUI();
-    }
+    } 
 
-    public void UpdateUI()
+    public void OnClick()
     {
-        if (data == null) return;
-
-        if (cardImage != null && data.cardSprite != null)
-        {
-            cardImage.sprite = data.cardSprite;
-        }
-
-        UpdateCountDisplay();
-        UpdateCountDisplay();
+        //OnCardClicked?.Invoke(this);
+        Debug.Log("Click: " + data.id);
     }
 
-    void OnClick()
-    {
-        OnCardClicked?.Invoke(this);
-    }
-    
     public void SetCount(int count)
     {
         data.countInDeck = count;
         UpdateCountDisplay();
     }
-    
-    void UpdateCountDisplay()
+
+    private void UpdateUI()
     {
-        if (countText != null)
-        {
-            if (data.countInDeck > 0)
-            {
-                countText.gameObject.SetActive(true);
-                countText.text = $"x{data.countInDeck}";
-            }
-            else
-            {
-                countText.gameObject.SetActive(false);
-            }
-        }
+        if (data == null) return;
+
+        if (cardImage != null && data.cardSprite != null)
+            cardImage.sprite = data.cardSprite;
+
+        UpdateCountDisplay();
     }
-    
-    void OnDestroy()
+
+    private void UpdateCountDisplay()
+    {
+        if (countText == null) return;
+
+        bool hasCard = data.countInDeck > 0;
+        countText.gameObject.SetActive(hasCard);
+        if (hasCard)
+            countText.text = $"x{data.countInDeck}";
+    }
+
+    private void OnDestroy()
     {
         if (cardButton != null)
-        {
             cardButton.onClick.RemoveListener(OnClick);
-        }
     }
 }

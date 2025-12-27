@@ -6,17 +6,31 @@ using UnityEngine.UI;
 
 public class DeckManager : MonoBehaviour
 {
-    [Header("References")]
+    [Header("Card Database")]
     public CardDataInfo cardDatabase;
     public RectTransform deckContent;
     public GameObject cardPrefab;
 
+    [Header("User's card")]
+    public RectTransform userDeckContent;
+    public GameObject userDeckPrefab;
+
+
+    private Dictionary<string, Card> userDeck = new();
     private Dictionary<string, Card> deck = new();
 
     void Start()
     {
         StartCoroutine(Init()); 
     }
+
+    void Update()
+    {
+        
+    }
+
+
+
     IEnumerator Init()
     {
         yield return null;  
