@@ -2,12 +2,12 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine.UI;
-using System.Diagnostics;
-
+using TMPro; 
 
 public class DeckManager : MonoBehaviour
 {
     public static DeckManager Instance;
+    
     [Header("Card Database")]
     public CardDataInfo cardDatabase;
     public RectTransform deckContent;
@@ -16,9 +16,11 @@ public class DeckManager : MonoBehaviour
     [Header("User's card")]
     public RectTransform userDeckContent;
     public GameObject userDeckPrefab;
-
-
+ 
     private Dictionary<string, int> userDeck = new();
+     
+    private Dictionary<string, GameObject> userDeckUI = new();
+    
     private Dictionary<string, Card> deck = new();
 
     void Awake()
@@ -32,66 +34,84 @@ public class DeckManager : MonoBehaviour
     }
 
     public static void CardInteract(string idCard) {
+        if (!Instance.deck.ContainsKey(idCard)) return;
+
         if (Instance.deck[idCard].data.countInDeck == 0) {
-            UnityEngine.Debug.Log("You have reach maximum");
+            UnityEngine.Debug.Log("You have reached maximum");
         } else {
-            Instance.deck[idCard].data.countInDeck--;
-            // Lấy CardData từ deck và truyền vào
+            Instance.deck[idCard].data.countInDeck--; 
             Instance.AddUserCard(Instance.deck[idCard].data);
-            UnityEngine.Debug.Log("+1");
+            UnityEngine.Debug.Log("+1 Card: " + idCard);
         }
     }
-
 
     IEnumerator Init()
     {
         yield return null;  
-
         foreach (var data in cardDatabase.cardDatas)
         {
-            if (data.countInDeck > 0)
-                AddCard(data);
+            if (data.countInDeck > 0) AddCard(data);
         }
-
         LayoutRebuilder.ForceRebuildLayoutImmediate(deckContent);
     }
-    // void LoadInitialDeck()
-    // {
-    //     foreach (var cardData in cardDatabase.cardDatas)
-    //     {
-    //         if (cardData.countInDeck > 0)
-    //         {
-    //             AddCard(cardData);
-    //         }
-    //     }
-    // }
+
     private Sprite LoadSprite(string id)
     {
-        string folder = "";
-
-        if (id.StartsWith("c"))
-            folder = "CardsGhost";
-        else
-            folder = "UtilityCard";
+        string folder = id.StartsWith("c") ? "CardsGhost" : "UtilityCard";
         return Resources.Load<Sprite>($"{folder}/{id}");
     }
-    public void AddUserCard(CardData data) {
-        if (userDeck.ContainsKey(data.id))
-        {
-            userDeck[data.id]++;
-            return;
+    
+    private Sprite LoadVariantSprite(string id)
+    {
+        string folder = id.StartsWith("c") ? "CardsGhost/VariantGhost" : "UtilityCard";
+        return Resources.Load<Sprite>($"{folder}/{id}");
+    }
+ 
+    public void AddUserCard(CardData data) { 
+        if (userDeck.ContainsKey(data.id)) {
+            userDeck[data.id]++; 
+        } else {
+            userDeck[data.id] = 1;
+        } 
+        if (userDeckUI.ContainsKey(data.id))
+        { 
+            QuantityChange(userDeckUI[data.id], userDeck[data.id]);
         }
-        userDeck[data.id] = 1;
-        GameObject obj = Instantiate(userDeckPrefab, userDeckContent);
-        Card cardUI = obj.GetComponent<Card>();
-        cardUI.Setup(data);
-        Transform imgTf = obj.transform.Find("Background");
-        if (imgTf != null)
+        else
         {
-            var image = imgTf.GetComponent<UnityEngine.UI.Image>();
-            image.sprite = LoadSprite(data.id);
+            GameObject obj = Instantiate(userDeckPrefab, userDeckContent);
+            
+            userDeckUI.Add(data.id, obj);
+
+            Transform imgTf = obj.transform.Find("Panel/Background");
+            if (imgTf != null)
+            {
+                var image = imgTf.GetComponent<UnityEngine.UI.Image>();
+                if (image != null) image.sprite = LoadVariantSprite(data.id);
+            }
+
+            // Set số lượng ban đầu
+            QuantityChange(obj, userDeck[data.id]);
         }
     }
+
+    private void QuantityChange(GameObject cardObj, int quantity)
+    {
+        Transform qtyTf = cardObj.transform.Find("Panel/Quantity");
+        
+        if (qtyTf != null)
+        {
+            var qtyText = qtyTf.GetComponent<TextMeshProUGUI>();
+            
+            if (qtyText != null)
+            {
+                qtyText.text = quantity.ToString();
+            }
+            
+        }
+        
+    }
+
     public void AddCard(CardData data)
     {
         if (deck.ContainsKey(data.id))
@@ -101,15 +121,14 @@ public class DeckManager : MonoBehaviour
         }
         GameObject obj = Instantiate(cardPrefab, deckContent);
         Card cardUI = obj.GetComponent<Card>();
-        cardUI.Setup(data);
+        cardUI.Setup(data); 
+        
         Transform imgTf = obj.transform.Find("CardImage");
         if (imgTf != null)
         {
             var image = imgTf.GetComponent<UnityEngine.UI.Image>();
             image.sprite = LoadSprite(data.id);
-
         }
-
         deck.Add(data.id, cardUI);
     }
 }
