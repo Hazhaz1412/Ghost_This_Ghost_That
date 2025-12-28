@@ -19,7 +19,6 @@ public class DeckManager : MonoBehaviour
  
     private Dictionary<string, int> userDeck = new();
     private Dictionary<string, GameObject> userDeckUI = new();
-     
     private Dictionary<string, Card> deck = new();
 
     void Awake()
@@ -31,19 +30,45 @@ public class DeckManager : MonoBehaviour
     {
         StartCoroutine(Init()); 
     }
- 
-    public static void CardInteract(string idCard) {
+
+    public static void CardInteract(string idCard) 
+    {
         if (!Instance.deck.ContainsKey(idCard)) return;
 
         CardData data = Instance.deck[idCard].data; 
-        if (data.countInDeck <= 0) {
-            UnityEngine.Debug.Log("You have reached maximum cards owned");
-        } else { 
+        
+        if (data.countInDeck > 0) 
+        { 
             data.countInDeck--;  
             Instance.AddUserCard(data); 
             Instance.QuantityChange(Instance.deck[idCard].gameObject, data.countInDeck, true);
-            
-            UnityEngine.Debug.Log("+1 Card: " + idCard + " | Remaining: " + data.countInDeck);
+        }
+    }
+
+    public static void UserCardInteract(string idCard) 
+    {
+        if (!Instance.userDeck.ContainsKey(idCard)) return;
+
+        Instance.userDeck[idCard]--;
+
+        if (Instance.deck.ContainsKey(idCard))
+        {
+            CardData data = Instance.deck[idCard].data;
+            data.countInDeck++;
+            Instance.QuantityChange(Instance.deck[idCard].gameObject, data.countInDeck, true);
+        }
+
+        if (Instance.userDeck[idCard] <= 0)
+        {
+            GameObject objToRemove = Instance.userDeckUI[idCard];
+            Instance.userDeck.Remove(idCard);
+            Instance.userDeckUI.Remove(idCard);
+            Destroy(objToRemove);
+        }
+        else
+        {
+            GameObject objToUpdate = Instance.userDeckUI[idCard];
+            Instance.QuantityChange(objToUpdate, Instance.userDeck[idCard], false);
         }
     }
 
@@ -69,12 +94,17 @@ public class DeckManager : MonoBehaviour
         return Resources.Load<Sprite>($"{folder}/{id}");
     }
  
-    public void AddUserCard(CardData data) {  
-        if (userDeck.ContainsKey(data.id)) {
+    public void AddUserCard(CardData data) 
+    {  
+        if (userDeck.ContainsKey(data.id)) 
+        {
             userDeck[data.id]++; 
-        } else {
+        } 
+        else 
+        {
             userDeck[data.id] = 1;
         }  
+
         if (userDeckUI.ContainsKey(data.id))
         {  
             QuantityChange(userDeckUI[data.id], userDeck[data.id], false);
@@ -83,6 +113,12 @@ public class DeckManager : MonoBehaviour
         {
             GameObject obj = Instantiate(userDeckPrefab, userDeckContent);
             userDeckUI.Add(data.id, obj); 
+
+            Button btn = obj.GetComponent<Button>();
+            if (btn == null) btn = obj.AddComponent<Button>(); 
+            btn.onClick.RemoveAllListeners();
+            btn.onClick.AddListener(() => UserCardInteract(data.id));
+
             Transform imgTf = obj.transform.Find("Panel/Background");
             if (imgTf != null)
             {
@@ -96,13 +132,14 @@ public class DeckManager : MonoBehaviour
                 var cardText = cardNameTf.GetComponent<TextMeshProUGUI>(); 
                 if (cardText != null) cardText.text = data.cardName; 
             } 
+            
             QuantityChange(obj, userDeck[data.id], false);
         }
     } 
+
     private void QuantityChange(GameObject cardObj, int quantity, bool databaseCard)
     { 
         string path = databaseCard ? "Quantity" : "Panel/Quantity";
-
         Transform qtyTf = cardObj.transform.Find(path);
         
         if (qtyTf != null)
@@ -138,11 +175,8 @@ public class DeckManager : MonoBehaviour
             var image = imgTf.GetComponent<UnityEngine.UI.Image>();
             image.sprite = LoadSprite(data.id);
         }
-         
+          
         QuantityChange(obj, data.countInDeck, true);
-
         deck.Add(data.id, cardUI);
     }
-
-    //TODO: Ugh... There's still missing a deckloader, i'll work on it later. 
 }
