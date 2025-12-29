@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 7f136a0e949d2886ca98e8c79de9b6b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3110897711899779187
+    second: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_0"
+  - first:
+      213: -9028239672666890467
+    second: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_1"
+  - first:
+      213: -127381444512992718
+    second: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_2"
+  - first:
+      213: -1279689518401046900
+    second: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_3"
+  - first:
+      213: -4949613649819441786
+    second: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_4"
+  - first:
+      213: 8161909865094552329
+    second: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_5"
+  - first:
+      213: -9075288317112191855
+    second: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_6"
+  - first:
+      213: 4738397312266007207
+    second: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_7"
+  - first:
+      213: 4516081377731064923
+    second: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_8"
+  - first:
+      213: -1491414209735694927
+    second: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_9"
+  - first:
+      213: 8055020228829656322
+    second: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_10"
+  - first:
+      213: -6336365571770640494
+    second: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_11"
+  - first:
+      213: 964253849262939632
+    second: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_12"
+  - first:
+      213: 6641657818980505636
+    second: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_13"
+  - first:
+      213: -2343594572947367730
+    second: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_14"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370ac5a9cf02c2b20800000000000000
+      internalID: 3110897711899779187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_1"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 6
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fd993f9df35b280800000000000000
+      internalID: -9028239672666890467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_2"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232b3d840437b3ef0800000000000000
+      internalID: -127381444512992718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_3"
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c863ae0c921ad3ee0800000000000000
+      internalID: -1279689518401046900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_4"
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 6
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68566131c907f4bb0800000000000000
+      internalID: -4949613649819441786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_5"
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 28
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b97b557cde44170800000000000000
+      internalID: 8161909865094552329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_6"
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 7
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1947648cb591e0280800000000000000
+      internalID: -9075288317112191855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_7"
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 6
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2f74a104b22c140800000000000000
+      internalID: 4738397312266007207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_8"
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 6
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54ba68f5185cae30800000000000000
+      internalID: 4516081377731064923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_9"
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 28
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5ebb79dae6d4be0800000000000000
+      internalID: -1491414209735694927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_10"
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 7
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2053af5883e29cf60800000000000000
+      internalID: 8055020228829656322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_11"
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 6
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297989f7515b018a0800000000000000
+      internalID: -6336365571770640494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_12"
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 7
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fdde9e54c7b16d00800000000000000
+      internalID: 964253849262939632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_13"
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428570ce898eb2c50800000000000000
+      internalID: 6641657818980505636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_14"
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec850fd1721e97fd0800000000000000
+      internalID: -2343594572947367730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_0": 3110897711899779187
+      "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_1": -9028239672666890467
+      "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_10": 8055020228829656322
+      "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_11": -6336365571770640494
+      "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_12": 964253849262939632
+      "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_13": 6641657818980505636
+      "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_14": -2343594572947367730
+      "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_2": -127381444512992718
+      "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_3": -1279689518401046900
+      "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_4": -4949613649819441786
+      "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_5": 8161909865094552329
+      "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_6": -9075288317112191855
+      "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_7": 4738397312266007207
+      "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_8": 4516081377731064923
+      "G\xE1y g\u1ECDi tai \u01B0\u01A1ng_9": -1491414209735694927
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
