@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab8c5c25539f3653adf632299be54b3, type: 3}
+  m_Name: NumberSpriteSO
+  m_EditorClassIdentifier: Game::NumberSpriteSO
+  _numberSprites:
+  - {fileID: 5088316998373936774, guid: 254a17442ddaeb19ba098023da223242, type: 3}
+  - {fileID: -855298285791758126, guid: f4149bde711bd098591e2fffcc289f2c, type: 3}
+  - {fileID: 6937817954938267909, guid: 4cbee1ae1e8c57f89838ae72704d2998, type: 3}
+  - {fileID: -6470460504253458178, guid: a3e4fc4928eacd5bbb58956cb534479d, type: 3}
+  - {fileID: -4178046375966092550, guid: 1d8742739086cd7649b44ad60a3b1b61, type: 3}
+  - {fileID: 4130640169021434097, guid: 753a742063f1f56828e1ae9cce89d525, type: 3}
+  - {fileID: 3465286685962602723, guid: be4df3d65d0d7e315a0c26a8d33b6443, type: 3}
+  - {fileID: 7028616704906629411, guid: 2d1ad47a69ca10a8b943cf612e2b2271, type: 3}
+  - {fileID: 8288426215254106694, guid: 5e2cbaddad0a94a54a910eda8db175fa, type: 3}
+  - {fileID: 4113829005332862926, guid: d38586c2a12603b31a574b694b53a218, type: 3}
+  - {fileID: -5099292496197868168, guid: 5e01d65e6508c010ba5389966f539776, type: 3}

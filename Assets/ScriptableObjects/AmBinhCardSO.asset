@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ab8bb22566140ee8d4270dd2e3914c, type: 3}
+  m_Name: AmBinhCardSO
+  m_EditorClassIdentifier: Game::TCardSO
+  <GhostSprite>k__BackingField: {fileID: -7742412929397667115, guid: a14feaa4916f61fb0b2279dd6c059e82, type: 3}
+  <NameSprite>k__BackingField: {fileID: 5043313943706747792, guid: fd23e817dc632c8e1b054ad0ed76c44e, type: 3}
+  <DescriptionSprite>k__BackingField: {fileID: 233241248775116173, guid: 8dcd89c8cff3a28cc98134dfc675abb3, type: 3}
+  <Mana>k__BackingField: 3
+  <Hp>k__BackingField: 2
+  <Attack>k__BackingField: 2

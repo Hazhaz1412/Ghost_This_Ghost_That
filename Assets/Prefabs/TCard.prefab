@@ -86,8 +86,9 @@ GameObject:
   - component: {fileID: 7606419529115795585}
   - component: {fileID: 3426702831881383022}
   - component: {fileID: 7454286354641713942}
+  - component: {fileID: 6595759007372383656}
   m_Layer: 5
-  m_Name: Card
+  m_Name: TCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -156,6 +157,26 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6595759007372383656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467282138558400694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8699393105be4631b9db3428afb6d08f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Game::CardBehavior
+  _imgGhost: {fileID: 1089975896719725541}
+  _imgName: {fileID: 776280245196420766}
+  _imgDescription: {fileID: 3629435458406717792}
+  _imgMana: {fileID: 54399112268385407}
+  _imgHp: {fileID: 8853041682132497710}
+  _imgAttack: {fileID: 1559876624041206390}
+  _cardData: {fileID: 11400000, guid: 8add9704c697a72659661d1617744817, type: 2}
+  _numberSprite: {fileID: 11400000, guid: fdc8c5f35512698bc8f17f7746fc33a7, type: 2}
 --- !u!1 &1484562416621077536
 GameObject:
   m_ObjectHideFlags: 0

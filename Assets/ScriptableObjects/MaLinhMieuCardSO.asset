@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ab8bb22566140ee8d4270dd2e3914c, type: 3}
+  m_Name: MaLinhMieuCardSO
+  m_EditorClassIdentifier: Game::TCardSO
+  <GhostSprite>k__BackingField: {fileID: 8655129813581568609, guid: 46b76e04cd79b65dcb86d444b9f2d214, type: 3}
+  <NameSprite>k__BackingField: {fileID: -9168310645408890046, guid: ccee7ea826a6c84f3a4f252ed7db7339, type: 3}
+  <DescriptionSprite>k__BackingField: {fileID: 5126979914067926328, guid: 950b31623811b51b7ac19d4c45d8b2ae, type: 3}
+  <Mana>k__BackingField: 7
+  <Hp>k__BackingField: 4
+  <Attack>k__BackingField: 4
