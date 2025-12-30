@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7631f4eff8f74ed38eb3eb9db17134e1
+guid: 5c01dbaf1945409b490a7b9b9b46ed28
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4488122190490610641
-    second: Wipe Pattern - Radial Double_0
+      213: -3732394144829508524
+    second: Quy cau_00015_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wipe Pattern - Radial Double_0
+      name: Quy cau_00015_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
+        x: 98
+        y: 87
+        width: 654
+        height: 806
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1dbadb86a53094e30800000000000000
-      internalID: 4488122190490610641
+      spriteID: 45470b3ec4fd33cc0800000000000000
+      internalID: -3732394144829508524
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Wipe Pattern - Radial Double_0: 4488122190490610641
+      Quy cau_00015_0: -3732394144829508524
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
