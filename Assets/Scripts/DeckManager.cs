@@ -16,6 +16,7 @@ public class DeckManager : MonoBehaviour
     [Header("User's card")]
     public RectTransform userDeckContent;
     public GameObject userDeckPrefab;
+    public TMP_Text cardCount;
  
     private Dictionary<string, int> userDeck = new();
     private Dictionary<string, GameObject> userDeckUI = new();
@@ -32,29 +33,40 @@ public class DeckManager : MonoBehaviour
     }
 
     public static void CardInteract(string idCard) 
-    {
-        if (!Instance.deck.ContainsKey(idCard)) return;
-
+    { 
+        
+        int crn = CardCount();
+        if(!valid(crn)) return;
+        if (!Instance.deck.ContainsKey(idCard)) 
+        {
+            
+            CardCount();
+            return;
+        }
         CardData data = Instance.deck[idCard].data; 
         
         if (data.countInDeck > 0) 
         { 
+
             data.countInDeck--;  
             Instance.AddUserCard(data); 
             Instance.QuantityChange(Instance.deck[idCard].gameObject, data.countInDeck, true);
+            
+            CardCount();
         }
     }
 
     public static void UserCardInteract(string idCard) 
     {
-        if (!Instance.userDeck.ContainsKey(idCard)) return;
-
+        
+        if (!Instance.userDeck.ContainsKey(idCard)) return; 
         Instance.userDeck[idCard]--;
 
         if (Instance.deck.ContainsKey(idCard))
         {
             CardData data = Instance.deck[idCard].data;
             data.countInDeck++;
+            CardCount();
             Instance.QuantityChange(Instance.deck[idCard].gameObject, data.countInDeck, true);
         }
 
@@ -95,22 +107,31 @@ public class DeckManager : MonoBehaviour
     }
  
     public void AddUserCard(CardData data) 
-    {  
+    {   
+        int crn = CardCount();
+        if(!valid(crn)) return;
         if (userDeck.ContainsKey(data.id)) 
         {
             userDeck[data.id]++; 
+            
+            CardCount();
         } 
         else 
         {
             userDeck[data.id] = 1;
+            
+            CardCount();
         }  
 
         if (userDeckUI.ContainsKey(data.id))
         {  
             QuantityChange(userDeckUI[data.id], userDeck[data.id], false);
+            
+            CardCount();
         }
         else
         {
+            
             GameObject obj = Instantiate(userDeckPrefab, userDeckContent);
             userDeckUI.Add(data.id, obj); 
 
@@ -134,11 +155,38 @@ public class DeckManager : MonoBehaviour
             } 
             
             QuantityChange(obj, userDeck[data.id], false);
+            
+            CardCount();
         }
     } 
-
+    public static bool valid(int count)
+    {
+        if (count >= 40) return false;
+        return true;
+    }
+    public static int CardCount() //TODO: After make the deck-load, make this run at init and +1 -1 the deck.
+    {
+        int total = 0;
+        foreach (var count in Instance.userDeck.Values)
+        {
+            total += count;
+        }
+        Instance.cardCount.text = total.ToString();
+        if (total >= 40)
+        {
+            Instance.cardCount.color = UnityEngine.Color.red;
+        }
+        else
+        {
+            Instance.cardCount.color = UnityEngine.Color.white;
+        }
+        return total;
+    }
     private void QuantityChange(GameObject cardObj, int quantity, bool databaseCard)
     { 
+        
+        int crn = CardCount();
+        if(!valid(crn)) return;
         string path = databaseCard ? "Quantity" : "Panel/Quantity";
         Transform qtyTf = cardObj.transform.Find(path);
         
@@ -159,9 +207,14 @@ public class DeckManager : MonoBehaviour
 
     public void AddCard(CardData data)
     { 
+        
+        int crn = CardCount();
+        if(!valid(crn)) return;
         if (deck.ContainsKey(data.id))
         {
             QuantityChange(deck[data.id].gameObject, data.countInDeck, true);
+            
+            CardCount();
             return;
         }
 
@@ -178,5 +231,6 @@ public class DeckManager : MonoBehaviour
           
         QuantityChange(obj, data.countInDeck, true);
         deck.Add(data.id, cardUI);
+        CardCount();
     }
 }

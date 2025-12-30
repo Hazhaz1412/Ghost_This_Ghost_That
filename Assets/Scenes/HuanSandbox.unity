@@ -1625,6 +1625,7 @@ MonoBehaviour:
   cardPrefab: {fileID: 6734341105316361816, guid: a572472449d017e4fa82b2218209fe97, type: 3}
   userDeckContent: {fileID: 321063879}
   userDeckPrefab: {fileID: 8956917243323310485, guid: eb4381a7f3d2186479ffc2ec9c05ba92, type: 3}
+  cardCount: {fileID: 1923885355}
 --- !u!4 &700038195
 Transform:
   m_ObjectHideFlags: 0
