@@ -109,8 +109,7 @@ public class NakamaManager : MonoBehaviour
         Debug.Log($"Has Refresh Token: {!string.IsNullOrEmpty(Session.RefreshToken)}");
         
         if (Session.Vars != null && Session.Vars.Count > 0)
-        {
-            Debug.Log("📦 Session Vars:");
+        { 
             foreach (var v in Session.Vars)
             {
                 Debug.Log($"   - {v.Key}: {v.Value}");

@@ -1,17 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-/// <summary>
-/// Tự động đăng nhập khi mở game
-/// Attach vào GameObject trong scene đầu tiên
-/// </summary>
+ 
 public class AutoLogin : MonoBehaviour
-{
-    [Header("Settings")]
+{ 
     [SerializeField] private bool autoLoginOnStart = true;
-    [SerializeField] private string gameSceneName = "HuanSandbox"; // Tên scene game chính
-    
-    [Header("UI (Optional)")]
+    [SerializeField] private string gameSceneName = "HuanSandbox";  
+     
     [SerializeField] private GameObject loadingPanel;
     [SerializeField] private TMPro.TextMeshProUGUI statusText;
 
@@ -19,18 +13,14 @@ public class AutoLogin : MonoBehaviour
     {
         if (!autoLoginOnStart) return;
 
-        ShowLoading(true, "Đang kết nối...");
-
-        // Kiểm tra đã login trước đó chưa
+        ShowLoading(true, "Đang kết nối..."); 
         if (NakamaManager.Instance.IsAuthenticated)
         {
             ShowLoading(true, "Chào mừng trở lại!");
             await System.Threading.Tasks.Task.Delay(500);
             LoadGameScene();
             return;
-        }
-
-        // Auto login bằng Device ID
+        } 
         ShowLoading(true, "Đang vào game...");
         bool success = await NakamaManager.Instance.AuthenticateDevice();
 
@@ -42,9 +32,7 @@ public class AutoLogin : MonoBehaviour
         }
         else
         {
-            ShowLoading(false, "");
-            Debug.LogError("[AutoLogin] Failed to authenticate!");
-            // Giữ ở màn login để user thử lại
+            ShowLoading(false, ""); 
         }
     }
 
@@ -56,8 +44,7 @@ public class AutoLogin : MonoBehaviour
         }
         else
         {
-            ShowLoading(false, "");
-            Debug.Log("[AutoLogin] No game scene specified. Staying on login screen.");
+            ShowLoading(false, ""); 
         }
     }
 
