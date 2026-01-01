@@ -1,5 +1,6 @@
 public enum SceneEnum
 {
     Intro,
-    MainMenu
+    MainMenu,
+    HuanSandbox
 }
