@@ -1,46 +1,60 @@
+using System.IO;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class TCard : MonoBehaviour
 {
     [SerializeField]
+    private string _resourceDir;
+
+    [SerializeField]
+    private GameObject _ghostPresentation;
+
+    [SerializeField]
     private Image _imgGhost;
 
     [SerializeField]
-    private Image _imgName;
+    private TMP_Text _txtName;
 
     [SerializeField]
-    private Image _imgDescription;
+    private TMP_Text _txtDescription;
 
     [SerializeField]
-    private Image _imgMana;
+    private TMP_Text _txtMana;
 
     [SerializeField]
-    private Image _imgHp;
+    private TMP_Text _txtHp;
 
     [SerializeField]
-    private Image _imgAttack;
+    private TMP_Text _txtAttack;
 
     [SerializeField]
-    private TCardSO _cardData;
+    private GameObject _spellPresentation;
 
     [SerializeField]
-    private NumberSpriteSO _numberSprite;
+    private Image _imgSpell;
+
+    public TCardData CardData;
 
     private void Start()
     {
-        _imgGhost.sprite = _cardData.GhostSprite;
-        _imgName.sprite = _cardData.NameSprite;
-        _imgDescription.sprite = _cardData.DescriptionSprite;
-        _imgMana.sprite = _numberSprite.GetNumberSprite(_cardData.Mana);
-        _imgAttack.sprite = _numberSprite.GetNumberSprite(_cardData.Attack);
-        _imgHp.sprite = _numberSprite.GetNumberSprite(_cardData.Hp);
+        if (CardData.CardType == TCardTypeEnum.GHOST)
+        {
+            _imgGhost.sprite = Resources.Load<Sprite>(Path.Join(_resourceDir, CardData.CardID));
+            _imgGhost.SetNativeSize();
+            _txtName.SetText(CardData.CardName);
+            _txtDescription.SetText(CardData.CardDescription);
+            _txtMana.SetText(CardData.Mana.ToString());
+            _txtHp.SetText(CardData.Hp.ToString());
+            _txtAttack.SetText(CardData.Attack.ToString());
+        }
+        else
+        {
+            _imgSpell.sprite = Resources.Load<Sprite>(Path.Join(_resourceDir, CardData.CardID));
+        }
 
-        _imgGhost.SetNativeSize();
-        _imgName.SetNativeSize();
-        _imgDescription.SetNativeSize();
-        _imgMana.SetNativeSize();
-        _imgAttack.SetNativeSize();
-        _imgHp.SetNativeSize();
+        _ghostPresentation.SetActive(CardData.CardType == TCardTypeEnum.GHOST);
+        _spellPresentation.SetActive(CardData.CardType != TCardTypeEnum.GHOST);
     }
 }
