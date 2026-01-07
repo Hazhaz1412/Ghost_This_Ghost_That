@@ -4,6 +4,8 @@ public class SettingButton : MonoBehaviour
 {
     [SerializeField]
     private SettingActive settingActive;
+    [SerializeField] 
+    private SettingUI settingUI;
 
     public void OnClick()
     {
@@ -15,5 +17,17 @@ public class SettingButton : MonoBehaviour
         {
             settingActive.SetState(SettingActive.SettingState.Active);
         } 
+    }
+
+    public void OnBackClick()
+    {
+        settingUI.OnBack();
+        settingActive.SetState(SettingActive.SettingState.DeActive);
+    }
+
+    public void OnApplyClick()
+    {
+        settingUI.OnApply();
+        settingActive.SetState(SettingActive.SettingState.DeActive);
     }
 }
