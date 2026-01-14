@@ -1,0 +1,959 @@
+fileFormatVersion: 2
+guid: 18143623665ef3bb5b67c149a52c56cb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1581452090716149482
+    second: ma lon_0
+  - first:
+      213: -8519642225864390684
+    second: ma lon_1
+  - first:
+      213: 4467574909162820696
+    second: ma lon_2
+  - first:
+      213: 4400271842599128902
+    second: ma lon_3
+  - first:
+      213: -543303513190978566
+    second: ma lon_4
+  - first:
+      213: 6541067666161041881
+    second: ma lon_5
+  - first:
+      213: -3623650194496478022
+    second: ma lon_6
+  - first:
+      213: -7673475945214786476
+    second: ma lon_7
+  - first:
+      213: 4060261489922316321
+    second: ma lon_8
+  - first:
+      213: 3827908308612442055
+    second: ma lon_9
+  - first:
+      213: 7306661610619514584
+    second: ma lon_10
+  - first:
+      213: 5813813517470392204
+    second: ma lon_11
+  - first:
+      213: -1815144508216306280
+    second: ma lon_12
+  - first:
+      213: -7267299053751609710
+    second: ma lon_13
+  - first:
+      213: -5731451397807428131
+    second: ma lon_14
+  - first:
+      213: 7864386948714713781
+    second: ma lon_15
+  - first:
+      213: -872908129743540678
+    second: ma lon_16
+  - first:
+      213: 1760951972924980729
+    second: ma lon_17
+  - first:
+      213: 2757104367559760300
+    second: ma lon_18
+  - first:
+      213: -104272920275366510
+    second: ma lon_19
+  - first:
+      213: -4396217565062319839
+    second: ma lon_20
+  - first:
+      213: 499215405864762391
+    second: ma lon_21
+  - first:
+      213: -3969628766182397428
+    second: ma lon_22
+  - first:
+      213: -483209831986400891
+    second: ma lon_23
+  - first:
+      213: 6833771363615288508
+    second: ma lon_24
+  - first:
+      213: -593173408491206887
+    second: ma lon_25
+  - first:
+      213: -2483097876395435957
+    second: ma lon_26
+  - first:
+      213: 422861913538624227
+    second: ma lon_27
+  - first:
+      213: 4929702334068041145
+    second: ma lon_28
+  - first:
+      213: -7925795430734483269
+    second: ma lon_29
+  - first:
+      213: 1032566253561653180
+    second: ma lon_30
+  - first:
+      213: 7125987613702582429
+    second: ma lon_31
+  - first:
+      213: -8220320855936258581
+    second: ma lon_32
+  - first:
+      213: 7883454911821412198
+    second: ma lon_33
+  - first:
+      213: 1915477559813783496
+    second: ma lon_34
+  - first:
+      213: -5057192455538134389
+    second: ma lon_35
+  - first:
+      213: 5127617274638052983
+    second: ma lon_36
+  - first:
+      213: 1650625555144027992
+    second: ma lon_37
+  - first:
+      213: -5092132163396433160
+    second: ma lon_38
+  - first:
+      213: -4426224583153573554
+    second: ma lon_39
+  - first:
+      213: -9213273620395399013
+    second: ma lon_40
+  - first:
+      213: 6496970646299122326
+    second: ma lon_41
+  - first:
+      213: -1682200574480442361
+    second: ma lon_42
+  - first:
+      213: 1065015919432242182
+    second: ma lon_43
+  - first:
+      213: -3462531709560287501
+    second: ma lon_44
+  - first:
+      213: -7582209563885316819
+    second: ma lon_45
+  - first:
+      213: 5192732717900691927
+    second: ma lon_46
+  - first:
+      213: -462505636075798523
+    second: ma lon_47
+  - first:
+      213: 2907230541970799293
+    second: ma lon_48
+  - first:
+      213: 7169310858962855217
+    second: ma lon_49
+  - first:
+      213: 8221603650948897162
+    second: ma lon_50
+  - first:
+      213: 2703877449289148638
+    second: ma lon_51
+  - first:
+      213: -1556034510389341173
+    second: ma lon_52
+  - first:
+      213: 7348649168882738283
+    second: ma lon_53
+  - first:
+      213: -7493039157233921834
+    second: ma lon_54
+  - first:
+      213: 8682072398127317452
+    second: ma lon_55
+  - first:
+      213: 4156881256450849337
+    second: ma lon_56
+  - first:
+      213: 4428982685659712375
+    second: ma lon_57
+  - first:
+      213: 9107751851313244042
+    second: ma lon_58
+  - first:
+      213: 6969992807598144230
+    second: ma lon_59
+  - first:
+      213: -5421422265718307836
+    second: ma lon_60
+  - first:
+      213: -7895074495849711664
+    second: ma lon_61
+  - first:
+      213: 6244590672732144516
+    second: ma lon_62
+  - first:
+      213: 2639420763868109279
+    second: ma lon_63
+  - first:
+      213: -6468277869244355155
+    second: ma lon_64
+  - first:
+      213: -7670129720082383847
+    second: ma lon_65
+  - first:
+      213: -3668079163227666476
+    second: ma lon_66
+  - first:
+      213: -5245499712927691466
+    second: ma lon_67
+  - first:
+      213: 6028157184096360411
+    second: ma lon_68
+  - first:
+      213: -5464169776661679837
+    second: ma lon_69
+  - first:
+      213: -4726536952166387599
+    second: ma lon_70
+  - first:
+      213: -8133836174344595955
+    second: ma lon_71
+  - first:
+      213: -8293610107581031345
+    second: ma lon_72
+  - first:
+      213: 9087168273155086842
+    second: ma lon_73
+  - first:
+      213: 6879958430549173782
+    second: ma lon_74
+  - first:
+      213: -7290743180763940577
+    second: ma lon_75
+  - first:
+      213: 8391081308156313960
+    second: ma lon_76
+  - first:
+      213: -1571132836254331752
+    second: ma lon_77
+  - first:
+      213: 7461409395358140328
+    second: ma lon_78
+  - first:
+      213: 1761213714766003082
+    second: ma lon_79
+  - first:
+      213: 1780761048275963815
+    second: ma lon_80
+  - first:
+      213: 7092192017764585408
+    second: ma lon_81
+  - first:
+      213: 7783686909550704248
+    second: ma lon_82
+  - first:
+      213: -5462325727708720217
+    second: ma lon_83
+  - first:
+      213: 6737056694746194841
+    second: ma lon_84
+  - first:
+      213: -6781827600719278219
+    second: ma lon_85
+  - first:
+      213: -1289471709988790984
+    second: ma lon_86
+  - first:
+      213: 7355484895535636857
+    second: ma lon_87
+  - first:
+      213: 5325192917833605950
+    second: ma lon_88
+  - first:
+      213: 7571646618504775212
+    second: ma lon_89
+  - first:
+      213: 4540491498775761024
+    second: ma lon_90
+  - first:
+      213: 4859802524381877538
+    second: ma lon_91
+  - first:
+      213: 7666360216886875520
+    second: ma lon_92
+  - first:
+      213: -7030476160359264368
+    second: ma lon_93
+  - first:
+      213: 6802716294718691596
+    second: ma lon_94
+  - first:
+      213: -4226407312061781304
+    second: ma lon_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MA_LON_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3195
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c5439b2957d987eafc5b755677a730
+      internalID: 69952784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_1
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 3195
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6351b81a04831b89b2e22277027332a
+      internalID: 728605375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_2
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 3195
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1274b803ee6afa72889bbf24a58516b7
+      internalID: 640790009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_3
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 3195
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85aa9b11756eb7b498725d4d1c61705a
+      internalID: -586555997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_4
+      rect:
+        serializedVersion: 2
+        x: 3428
+        y: 3195
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35380397c7b9dede7a0097097fdb55d0
+      internalID: -1321495873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_5
+      rect:
+        serializedVersion: 2
+        x: 4285
+        y: 3195
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d8280f20ed5317bb095192bea2f098
+      internalID: -87174857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2130
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4f10d6692fb12b6a83a073ed412a7c
+      internalID: -1622150124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_7
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 2130
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe8665ac875488c2b98d2eadcc7ef97
+      internalID: -639627009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_8
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 2130
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c4e78ec9e5ca202a32a00ca37389a4
+      internalID: 1779784660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_9
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 2130
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d2d905c71c5a039b1e121a0433b8a2
+      internalID: 1664133448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_10
+      rect:
+        serializedVersion: 2
+        x: 3428
+        y: 2130
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91485c39c39157d828d07f32f0b25905
+      internalID: 1745337844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_11
+      rect:
+        serializedVersion: 2
+        x: 4285
+        y: 2130
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8488fcfe470d65ac1ab4251575fd668a
+      internalID: 1977665278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1065
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf887b30bd21d748ad69148b968b1a1
+      internalID: -1006399276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_13
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1065
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454d2e5e5f9d09b22818fa462dcf642a
+      internalID: 1736483745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_14
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 1065
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcd5f15008f70cf395dcb4eab509817
+      internalID: -1678241089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_15
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 1065
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37166e8909326d4bbd607f4af51de67
+      internalID: -1914162283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_16
+      rect:
+        serializedVersion: 2
+        x: 3428
+        y: 1065
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb3c88cc89fa749d854da857e9c1f64
+      internalID: 9817107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_17
+      rect:
+        serializedVersion: 2
+        x: 4285
+        y: 1065
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc18b0feb33befca4880f4e9b9459365
+      internalID: 1834081591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62af85eb82b1bcb1b08a5a5d2a9b56c
+      internalID: -1589602119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_19
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 0
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cef5e54d82b4f64847c91e8a01c0bf
+      internalID: -1497482338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_20
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 0
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf219a55a1aaac60a6c69e6a021485f
+      internalID: 1796813360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_21
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 0
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6679bb62d9db52f1f9fda57cc319b921
+      internalID: -1620612268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_22
+      rect:
+        serializedVersion: 2
+        x: 3428
+        y: 0
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea43168ea65ba9ad18f2d2bc9a551f50
+      internalID: 466188672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LON_23
+      rect:
+        serializedVersion: 2
+        x: 4285
+        y: 0
+        width: 857
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5d4d4e8ed1aebe3b6791944ae3ac6c
+      internalID: 1714934226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6e18faa77c2eb48bd9e84f9213f6df0f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":4.0},"gridSpriteSize":{"x":857.0,"y":1065.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MA_LON_0: 69952784
+      MA_LON_1: 728605375
+      MA_LON_10: 1745337844
+      MA_LON_11: 1977665278
+      MA_LON_12: -1006399276
+      MA_LON_13: 1736483745
+      MA_LON_14: -1678241089
+      MA_LON_15: -1914162283
+      MA_LON_16: 9817107
+      MA_LON_17: 1834081591
+      MA_LON_18: -1589602119
+      MA_LON_19: -1497482338
+      MA_LON_2: 640790009
+      MA_LON_20: 1796813360
+      MA_LON_21: -1620612268
+      MA_LON_22: 466188672
+      MA_LON_23: 1714934226
+      MA_LON_3: -586555997
+      MA_LON_4: -1321495873
+      MA_LON_5: -87174857
+      MA_LON_6: -1622150124
+      MA_LON_7: -639627009
+      MA_LON_8: 1779784660
+      MA_LON_9: 1664133448
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

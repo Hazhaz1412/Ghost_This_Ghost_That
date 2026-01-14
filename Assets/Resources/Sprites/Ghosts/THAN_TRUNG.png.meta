@@ -1,0 +1,851 @@
+fileFormatVersion: 2
+guid: 3e5083bb58f98dc08bc6279d1b05df8a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8471794095809513064
+    second: "th\u1EA7n tr\xF9ng_0"
+  - first:
+      213: -2322846652019816842
+    second: "th\u1EA7n tr\xF9ng_1"
+  - first:
+      213: 2465584755978728991
+    second: "th\u1EA7n tr\xF9ng_2"
+  - first:
+      213: -142635972902601063
+    second: "th\u1EA7n tr\xF9ng_3"
+  - first:
+      213: 2838422028208670602
+    second: "th\u1EA7n tr\xF9ng_4"
+  - first:
+      213: 306143090838794340
+    second: "th\u1EA7n tr\xF9ng_5"
+  - first:
+      213: 8248669804344812990
+    second: "th\u1EA7n tr\xF9ng_6"
+  - first:
+      213: -8320230099694857385
+    second: "th\u1EA7n tr\xF9ng_7"
+  - first:
+      213: 293248104374843237
+    second: "th\u1EA7n tr\xF9ng_8"
+  - first:
+      213: 971304329819853176
+    second: "th\u1EA7n tr\xF9ng_9"
+  - first:
+      213: 8553968453610330625
+    second: "th\u1EA7n tr\xF9ng_10"
+  - first:
+      213: -6583898095364577774
+    second: "th\u1EA7n tr\xF9ng_11"
+  - first:
+      213: -7949130903837898908
+    second: "th\u1EA7n tr\xF9ng_12"
+  - first:
+      213: -1450467035151054577
+    second: "th\u1EA7n tr\xF9ng_13"
+  - first:
+      213: 6516499042439152802
+    second: "th\u1EA7n tr\xF9ng_14"
+  - first:
+      213: 4877827007304647252
+    second: "th\u1EA7n tr\xF9ng_15"
+  - first:
+      213: 394585248924878669
+    second: "th\u1EA7n tr\xF9ng_16"
+  - first:
+      213: -6691671756025899583
+    second: "th\u1EA7n tr\xF9ng_17"
+  - first:
+      213: 1955688007863789789
+    second: "th\u1EA7n tr\xF9ng_18"
+  - first:
+      213: 1493976199982751008
+    second: "th\u1EA7n tr\xF9ng_19"
+  - first:
+      213: -6262619223600406045
+    second: "th\u1EA7n tr\xF9ng_20"
+  - first:
+      213: -8042733251894725649
+    second: "th\u1EA7n tr\xF9ng_21"
+  - first:
+      213: 973836337188993292
+    second: "th\u1EA7n tr\xF9ng_22"
+  - first:
+      213: -9193550902842596121
+    second: "th\u1EA7n tr\xF9ng_23"
+  - first:
+      213: 2677521959004005702
+    second: "th\u1EA7n tr\xF9ng_24"
+  - first:
+      213: -7264132486390972440
+    second: "th\u1EA7n tr\xF9ng_25"
+  - first:
+      213: -3248980634801585708
+    second: "th\u1EA7n tr\xF9ng_26"
+  - first:
+      213: 6140613777975373446
+    second: "th\u1EA7n tr\xF9ng_27"
+  - first:
+      213: -8940958709516155248
+    second: "th\u1EA7n tr\xF9ng_28"
+  - first:
+      213: 6578949465934257453
+    second: "th\u1EA7n tr\xF9ng_29"
+  - first:
+      213: 6751732244618688145
+    second: "th\u1EA7n tr\xF9ng_30"
+  - first:
+      213: -8263319440054448732
+    second: "th\u1EA7n tr\xF9ng_31"
+  - first:
+      213: -545609537853438469
+    second: "th\u1EA7n tr\xF9ng_32"
+  - first:
+      213: 7518441267373848973
+    second: "th\u1EA7n tr\xF9ng_33"
+  - first:
+      213: -4042883778473101177
+    second: "th\u1EA7n tr\xF9ng_34"
+  - first:
+      213: -1711247199897531887
+    second: "th\u1EA7n tr\xF9ng_35"
+  - first:
+      213: -1907792910180658398
+    second: "th\u1EA7n tr\xF9ng_36"
+  - first:
+      213: 3588763952354720937
+    second: "th\u1EA7n tr\xF9ng_37"
+  - first:
+      213: -662033023547801202
+    second: "th\u1EA7n tr\xF9ng_38"
+  - first:
+      213: 5780378034451139447
+    second: "th\u1EA7n tr\xF9ng_39"
+  - first:
+      213: 2471291343445754195
+    second: "th\u1EA7n tr\xF9ng_40"
+  - first:
+      213: 3711915431973118990
+    second: "th\u1EA7n tr\xF9ng_41"
+  - first:
+      213: -6006599420025313315
+    second: "th\u1EA7n tr\xF9ng_42"
+  - first:
+      213: 5080987080500866107
+    second: "th\u1EA7n tr\xF9ng_43"
+  - first:
+      213: 7534816704606031869
+    second: "th\u1EA7n tr\xF9ng_44"
+  - first:
+      213: 1034941809096957174
+    second: "th\u1EA7n tr\xF9ng_45"
+  - first:
+      213: 5459510064582259589
+    second: "th\u1EA7n tr\xF9ng_46"
+  - first:
+      213: 2940080762968312889
+    second: "th\u1EA7n tr\xF9ng_47"
+  - first:
+      213: 995478994345366970
+    second: "th\u1EA7n tr\xF9ng_48"
+  - first:
+      213: 4788266381467652534
+    second: "th\u1EA7n tr\xF9ng_49"
+  - first:
+      213: 6636005305744315523
+    second: "th\u1EA7n tr\xF9ng_50"
+  - first:
+      213: 182213696003963345
+    second: "th\u1EA7n tr\xF9ng_51"
+  - first:
+      213: 5040638389179074791
+    second: "th\u1EA7n tr\xF9ng_52"
+  - first:
+      213: -7574063309318920488
+    second: "th\u1EA7n tr\xF9ng_53"
+  - first:
+      213: 5018836840635867568
+    second: "th\u1EA7n tr\xF9ng_54"
+  - first:
+      213: -5224724608176269953
+    second: "th\u1EA7n tr\xF9ng_55"
+  - first:
+      213: 6926152089325970211
+    second: "th\u1EA7n tr\xF9ng_56"
+  - first:
+      213: -3063925902111413594
+    second: "th\u1EA7n tr\xF9ng_57"
+  - first:
+      213: 9081315538843183396
+    second: "th\u1EA7n tr\xF9ng_58"
+  - first:
+      213: 2624336781700058857
+    second: "th\u1EA7n tr\xF9ng_59"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: THAN_TRUNG_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2688
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7893167e8fc4d425bf35c9eaeb6ffa0
+      internalID: 1073385011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_1
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2688
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2d5c0ea89dfe265b87512a627f4435
+      internalID: -128858102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_2
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 2688
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7276add9f9ed5e1868ecc388025e5bcf
+      internalID: -2061822262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_3
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 2688
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec64812b43766ad18b0d2837d07ad402
+      internalID: 861204855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_4
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 2688
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbb3105d09e2ae71b1f0cb1bc848f65
+      internalID: -113333241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_5
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 2688
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5d9fb904daa72f7818d2ee912370a7
+      internalID: -521349915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4260f2aac91380291069a83ad7249c
+      internalID: 1068122336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_7
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1792
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b5f77d9b95f235f9c5b8968ab9ef3b
+      internalID: 504896394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_8
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1792
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30f57e9ad09eb7b69b44e48933a083c
+      internalID: -39054959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_9
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 1792
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f5542f7b93e31bdbe62271b0e9d71d
+      internalID: 1031408844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_10
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 1792
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d4b19032e38a94da6ebfd4f54ab407
+      internalID: 633181083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_11
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 1792
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d952ae3a5ee4bbba1bf13e93e0d27a41
+      internalID: 1720521015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac42396eb929e27989d0516b94987fb9
+      internalID: -1420899408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_13
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 896
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b5d34efd7b46706a101091e8e7b9e3
+      internalID: 1470449338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_14
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 896
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb847039581c821f9325930de24f16e
+      internalID: -417697300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_15
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 896
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57c1a277875d9000910abaa0c63ea6b
+      internalID: 711498573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_16
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 896
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ca94ac9fbf28028bec84a578be79d9
+      internalID: -1501388234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_17
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 896
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fbb3a1c82d15d2090e4713a6efd931
+      internalID: 2122666387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa88994d205eff77d8ffd11ea632f8d1
+      internalID: -603493110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_19
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 0
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c0b450ade241d82a94bf3840ebb07e
+      internalID: 485766048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_20
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 0
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41a97ab62a27369b91dedfcabdaf957
+      internalID: 771932034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_21
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 0
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d891b9202e562dd2a893bb41ad4b1cc9
+      internalID: 139063387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_22
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 0
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb18c4640e10f08f28005b53a050344a
+      internalID: -1622370922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THAN_TRUNG_23
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 0
+        width: 735
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d412026886030a60ea5988b9088bf572
+      internalID: -647840057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c73fcb9df139c6bd1ab03e06c3508a96
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":4.0},"gridSpriteSize":{"x":735.0,"y":896.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      THAN_TRUNG_0: 1073385011
+      THAN_TRUNG_1: -128858102
+      THAN_TRUNG_10: 633181083
+      THAN_TRUNG_11: 1720521015
+      THAN_TRUNG_12: -1420899408
+      THAN_TRUNG_13: 1470449338
+      THAN_TRUNG_14: -417697300
+      THAN_TRUNG_15: 711498573
+      THAN_TRUNG_16: -1501388234
+      THAN_TRUNG_17: 2122666387
+      THAN_TRUNG_18: -603493110
+      THAN_TRUNG_19: 485766048
+      THAN_TRUNG_2: -2061822262
+      THAN_TRUNG_20: 771932034
+      THAN_TRUNG_21: 139063387
+      THAN_TRUNG_22: -1622370922
+      THAN_TRUNG_23: -647840057
+      THAN_TRUNG_3: 861204855
+      THAN_TRUNG_4: -113333241
+      THAN_TRUNG_5: -521349915
+      THAN_TRUNG_6: 1068122336
+      THAN_TRUNG_7: 504896394
+      THAN_TRUNG_8: -39054959
+      THAN_TRUNG_9: 1031408844
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

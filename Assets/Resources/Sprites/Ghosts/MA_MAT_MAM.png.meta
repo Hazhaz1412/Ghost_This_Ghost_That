@@ -1,0 +1,743 @@
+fileFormatVersion: 2
+guid: e13f22499202270dc8d4ca7a1fc39453
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3975860712122930753
+    second: "ma m\u1EB7t m\xE2m_0"
+  - first:
+      213: 6668218919342223626
+    second: "ma m\u1EB7t m\xE2m_1"
+  - first:
+      213: -6112746565490847172
+    second: "ma m\u1EB7t m\xE2m_2"
+  - first:
+      213: 298391233086551488
+    second: "ma m\u1EB7t m\xE2m_3"
+  - first:
+      213: -2932746690998487500
+    second: "ma m\u1EB7t m\xE2m_4"
+  - first:
+      213: 6373797663371820465
+    second: "ma m\u1EB7t m\xE2m_5"
+  - first:
+      213: -3935808787978342633
+    second: "ma m\u1EB7t m\xE2m_6"
+  - first:
+      213: 468683918036582229
+    second: "ma m\u1EB7t m\xE2m_7"
+  - first:
+      213: 6325258891346477816
+    second: "ma m\u1EB7t m\xE2m_8"
+  - first:
+      213: 3052145923750223067
+    second: "ma m\u1EB7t m\xE2m_9"
+  - first:
+      213: -7379923122434045083
+    second: "ma m\u1EB7t m\xE2m_10"
+  - first:
+      213: -707928861112187521
+    second: "ma m\u1EB7t m\xE2m_11"
+  - first:
+      213: 11512778568890171
+    second: "ma m\u1EB7t m\xE2m_12"
+  - first:
+      213: -1920646540476619308
+    second: "ma m\u1EB7t m\xE2m_13"
+  - first:
+      213: 7171678084046337380
+    second: "ma m\u1EB7t m\xE2m_14"
+  - first:
+      213: 8990929233656111840
+    second: "ma m\u1EB7t m\xE2m_15"
+  - first:
+      213: -5836940735147442931
+    second: "ma m\u1EB7t m\xE2m_16"
+  - first:
+      213: 8538609361805699765
+    second: "ma m\u1EB7t m\xE2m_17"
+  - first:
+      213: 2900872624606334100
+    second: "ma m\u1EB7t m\xE2m_18"
+  - first:
+      213: -8074921091041704175
+    second: "ma m\u1EB7t m\xE2m_19"
+  - first:
+      213: 899544014643727938
+    second: "ma m\u1EB7t m\xE2m_20"
+  - first:
+      213: -6263603625721217639
+    second: "ma m\u1EB7t m\xE2m_21"
+  - first:
+      213: 9130964761208395983
+    second: "ma m\u1EB7t m\xE2m_22"
+  - first:
+      213: 3360914746136419805
+    second: "ma m\u1EB7t m\xE2m_23"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MA_MAT_MAM_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2931
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcac1fdff8a2ae4278bcc3edacd2a572
+      internalID: -416244911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_1
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 2931
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c1e84543af54128ad6d191cf72fdfe
+      internalID: -1698039432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_2
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 2931
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab869bcfbc5c05cb9f1887319e3e712
+      internalID: 230458294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_3
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 2931
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e826ace5c442489f0ae818e8713abde5
+      internalID: 315880573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_4
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 2931
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0546803593c867b89b5e209051c324a8
+      internalID: 2017265193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_5
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 2931
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3e87a9bd3a055a5a1b56bb8809c502
+      internalID: -720859777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1954
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8566d7dc2680d509e107bc6af0c6f0
+      internalID: -946123146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_7
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1954
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adef3804d02e38e5393fc4513efd23a7
+      internalID: -2054644637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_8
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1954
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b881525769ac464932a661dbb2b4af
+      internalID: -2026124527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_9
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 1954
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a578eb109131ab23b7c69c6fdf132fc
+      internalID: -1247981298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_10
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 1954
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d60e379e188135b49e644f64095e48b
+      internalID: -1458503946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_11
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 1954
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310812fd1929966e682771aa9789b506
+      internalID: 2113410929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 977
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97da9a3b78c5ef91cb89a6808915e44b
+      internalID: 81329366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_13
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 977
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00e27a40a79381a494507df3f8147b3
+      internalID: -957282530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_14
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 977
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815ebd6e4f0585b5fbd75f422da4ddfb
+      internalID: 1637913045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_15
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 977
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b871682d4b15f128e22c0929d6c15c
+      internalID: -112441282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_16
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 977
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01196ff51ddc0d68885b3ce0e8cd6ac
+      internalID: -1624597149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_17
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 977
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c15b3d750fc4d67f82291044e8c794e
+      internalID: -1324677304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f02583476369f39d842f7a1ecf15f04
+      internalID: 568585913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_19
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 0
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad1d1a22d1a7a27788bf1195ceccf97
+      internalID: 714396733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_20
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 0
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2244ecbb8bbc824fab889989ac7fc870
+      internalID: 1678894570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_21
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 0
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c4aaecb2b2d6c7482a7e8257235b84
+      internalID: -1660438989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_22
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 0
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07d1e4deca80c1c0b7e224db1145e53
+      internalID: 1266565223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_MAT_MAM_23
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 0
+        width: 836
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29966fe2f8e53a23a39fe9ec1afd16f
+      internalID: -526949365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 639ea40e738b7b5c6b03f67c86e4f819
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":4.0},"gridSpriteSize":{"x":836.0,"y":977.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MA_MAT_MAM_0: -416244911
+      MA_MAT_MAM_1: -1698039432
+      MA_MAT_MAM_10: -1458503946
+      MA_MAT_MAM_11: 2113410929
+      MA_MAT_MAM_12: 81329366
+      MA_MAT_MAM_13: -957282530
+      MA_MAT_MAM_14: 1637913045
+      MA_MAT_MAM_15: -112441282
+      MA_MAT_MAM_16: -1624597149
+      MA_MAT_MAM_17: -1324677304
+      MA_MAT_MAM_18: 568585913
+      MA_MAT_MAM_19: 714396733
+      MA_MAT_MAM_2: 230458294
+      MA_MAT_MAM_20: 1678894570
+      MA_MAT_MAM_21: -1660438989
+      MA_MAT_MAM_22: 1266565223
+      MA_MAT_MAM_23: -526949365
+      MA_MAT_MAM_3: 315880573
+      MA_MAT_MAM_4: 2017265193
+      MA_MAT_MAM_5: -720859777
+      MA_MAT_MAM_6: -946123146
+      MA_MAT_MAM_7: -2054644637
+      MA_MAT_MAM_8: -2026124527
+      MA_MAT_MAM_9: -1247981298
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

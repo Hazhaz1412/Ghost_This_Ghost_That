@@ -1,0 +1,1103 @@
+fileFormatVersion: 2
+guid: 5438076bace8247f38b71423e47639e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8840446533555949133
+    second: "ma tr\xE0nh_0"
+  - first:
+      213: -7131004860502390104
+    second: "ma tr\xE0nh_1"
+  - first:
+      213: -6648627626299236766
+    second: "ma tr\xE0nh_2"
+  - first:
+      213: -5707301099289154172
+    second: "ma tr\xE0nh_3"
+  - first:
+      213: -5042665722829029554
+    second: "ma tr\xE0nh_4"
+  - first:
+      213: 6502885766124989469
+    second: "ma tr\xE0nh_5"
+  - first:
+      213: 3791951468056144932
+    second: "ma tr\xE0nh_6"
+  - first:
+      213: -3957427916665605816
+    second: "ma tr\xE0nh_7"
+  - first:
+      213: -7042696193801768996
+    second: "ma tr\xE0nh_8"
+  - first:
+      213: -4784295844431979119
+    second: "ma tr\xE0nh_9"
+  - first:
+      213: -4384860002840160603
+    second: "ma tr\xE0nh_10"
+  - first:
+      213: 3285430110189719943
+    second: "ma tr\xE0nh_11"
+  - first:
+      213: 7606330204126259254
+    second: "ma tr\xE0nh_12"
+  - first:
+      213: 2917493809484686521
+    second: "ma tr\xE0nh_13"
+  - first:
+      213: -2350007544383659441
+    second: "ma tr\xE0nh_14"
+  - first:
+      213: -7197186613887352600
+    second: "ma tr\xE0nh_15"
+  - first:
+      213: -5997300093348457433
+    second: "ma tr\xE0nh_16"
+  - first:
+      213: -1043366913976006544
+    second: "ma tr\xE0nh_17"
+  - first:
+      213: -1349929471136203157
+    second: "ma tr\xE0nh_18"
+  - first:
+      213: -2349929552963070129
+    second: "ma tr\xE0nh_19"
+  - first:
+      213: -4869422790018224385
+    second: "ma tr\xE0nh_20"
+  - first:
+      213: -4534632747979031038
+    second: "ma tr\xE0nh_21"
+  - first:
+      213: -4616942086258070483
+    second: "ma tr\xE0nh_22"
+  - first:
+      213: 9137525347140797062
+    second: "ma tr\xE0nh_23"
+  - first:
+      213: 2051475507237452117
+    second: "ma tr\xE0nh_24"
+  - first:
+      213: -8954343939010816117
+    second: "ma tr\xE0nh_25"
+  - first:
+      213: 2013798680269880970
+    second: "ma tr\xE0nh_26"
+  - first:
+      213: -7604993616450748648
+    second: "ma tr\xE0nh_27"
+  - first:
+      213: 5458165654963623833
+    second: "ma tr\xE0nh_28"
+  - first:
+      213: 5555007023824802010
+    second: "ma tr\xE0nh_29"
+  - first:
+      213: 284166758625797927
+    second: "ma tr\xE0nh_30"
+  - first:
+      213: 6245697885866744820
+    second: "ma tr\xE0nh_31"
+  - first:
+      213: 8962148773637069580
+    second: "ma tr\xE0nh_32"
+  - first:
+      213: -2197135827492178731
+    second: "ma tr\xE0nh_33"
+  - first:
+      213: 8752507856685306324
+    second: "ma tr\xE0nh_34"
+  - first:
+      213: 7974989196273334193
+    second: "ma tr\xE0nh_35"
+  - first:
+      213: -7598602050702517349
+    second: "ma tr\xE0nh_36"
+  - first:
+      213: -5758194946816698351
+    second: "ma tr\xE0nh_37"
+  - first:
+      213: -2113184700984138126
+    second: "ma tr\xE0nh_38"
+  - first:
+      213: -1896915934245881579
+    second: "ma tr\xE0nh_39"
+  - first:
+      213: 2283052837576348333
+    second: "ma tr\xE0nh_40"
+  - first:
+      213: -8378634888182181956
+    second: "ma tr\xE0nh_41"
+  - first:
+      213: 8828012213661236831
+    second: "ma tr\xE0nh_42"
+  - first:
+      213: -4790155598321505760
+    second: "ma tr\xE0nh_43"
+  - first:
+      213: -8591611589574215325
+    second: "ma tr\xE0nh_44"
+  - first:
+      213: 8635231039102251437
+    second: "ma tr\xE0nh_45"
+  - first:
+      213: -8970360937892676361
+    second: "ma tr\xE0nh_46"
+  - first:
+      213: -5546812727476063034
+    second: "ma tr\xE0nh_47"
+  - first:
+      213: 5526828253811623735
+    second: "ma tr\xE0nh_48"
+  - first:
+      213: 6652954365342102077
+    second: "ma tr\xE0nh_49"
+  - first:
+      213: -3573670165530942762
+    second: "ma tr\xE0nh_50"
+  - first:
+      213: 1454268301549662908
+    second: "ma tr\xE0nh_51"
+  - first:
+      213: 6998810357423304678
+    second: "ma tr\xE0nh_52"
+  - first:
+      213: -3839783704617700586
+    second: "ma tr\xE0nh_53"
+  - first:
+      213: -3366417803027329873
+    second: "ma tr\xE0nh_54"
+  - first:
+      213: 8686776105536878348
+    second: "ma tr\xE0nh_55"
+  - first:
+      213: 7499328786763019280
+    second: "ma tr\xE0nh_56"
+  - first:
+      213: 9068178140034521630
+    second: "ma tr\xE0nh_57"
+  - first:
+      213: 4743465829490580228
+    second: "ma tr\xE0nh_58"
+  - first:
+      213: -8401584296159046375
+    second: "ma tr\xE0nh_59"
+  - first:
+      213: 6015889200519209781
+    second: "ma tr\xE0nh_60"
+  - first:
+      213: 603772923821192377
+    second: "ma tr\xE0nh_61"
+  - first:
+      213: -1731010540763455699
+    second: "ma tr\xE0nh_62"
+  - first:
+      213: 9145026611198851847
+    second: "ma tr\xE0nh_63"
+  - first:
+      213: -5344135815791669141
+    second: "ma tr\xE0nh_64"
+  - first:
+      213: 1887604632813204886
+    second: "ma tr\xE0nh_65"
+  - first:
+      213: 3769454378223485603
+    second: "ma tr\xE0nh_66"
+  - first:
+      213: 5895795380487084480
+    second: "ma tr\xE0nh_67"
+  - first:
+      213: -754241343458091139
+    second: "ma tr\xE0nh_68"
+  - first:
+      213: 7066768302348309432
+    second: "ma tr\xE0nh_69"
+  - first:
+      213: -7117479729712671980
+    second: "ma tr\xE0nh_70"
+  - first:
+      213: 7216630721946852842
+    second: "ma tr\xE0nh_71"
+  - first:
+      213: 829348903081153288
+    second: "ma tr\xE0nh_72"
+  - first:
+      213: 2385465203608247384
+    second: "ma tr\xE0nh_73"
+  - first:
+      213: -7760736040442092417
+    second: "ma tr\xE0nh_74"
+  - first:
+      213: -7672157667687500838
+    second: "ma tr\xE0nh_75"
+  - first:
+      213: -5425937244503742017
+    second: "ma tr\xE0nh_76"
+  - first:
+      213: 5168677618180059393
+    second: "ma tr\xE0nh_77"
+  - first:
+      213: 4650993535848308677
+    second: "ma tr\xE0nh_78"
+  - first:
+      213: -6948534887636025091
+    second: "ma tr\xE0nh_79"
+  - first:
+      213: 5359887045355659564
+    second: "ma tr\xE0nh_80"
+  - first:
+      213: -5140086423527449552
+    second: "ma tr\xE0nh_81"
+  - first:
+      213: 1641880319092577185
+    second: "ma tr\xE0nh_82"
+  - first:
+      213: -3176502925092250676
+    second: "ma tr\xE0nh_83"
+  - first:
+      213: 6459577002361462922
+    second: "ma tr\xE0nh_84"
+  - first:
+      213: 1141103644701747535
+    second: "ma tr\xE0nh_85"
+  - first:
+      213: -7137871024476096203
+    second: "ma tr\xE0nh_86"
+  - first:
+      213: -8826706007816534087
+    second: "ma tr\xE0nh_87"
+  - first:
+      213: 2283685226361171158
+    second: "ma tr\xE0nh_88"
+  - first:
+      213: -7221807031157949866
+    second: "ma tr\xE0nh_89"
+  - first:
+      213: -2172571428235868066
+    second: "ma tr\xE0nh_90"
+  - first:
+      213: -8354711063905129788
+    second: "ma tr\xE0nh_91"
+  - first:
+      213: -5322993061591440988
+    second: "ma tr\xE0nh_92"
+  - first:
+      213: -8149016520124995746
+    second: "ma tr\xE0nh_93"
+  - first:
+      213: -651905471262723763
+    second: "ma tr\xE0nh_94"
+  - first:
+      213: -953210406647019310
+    second: "ma tr\xE0nh_95"
+  - first:
+      213: 4190461228186069207
+    second: "ma tr\xE0nh_96"
+  - first:
+      213: -1158036038175424682
+    second: "ma tr\xE0nh_97"
+  - first:
+      213: -6642522264321077364
+    second: "ma tr\xE0nh_98"
+  - first:
+      213: 9151634619569827423
+    second: "ma tr\xE0nh_99"
+  - first:
+      213: -4806695590498704879
+    second: "ma tr\xE0nh_100"
+  - first:
+      213: -6692960256236422930
+    second: "ma tr\xE0nh_101"
+  - first:
+      213: -4572094769943065726
+    second: "ma tr\xE0nh_102"
+  - first:
+      213: -4814441964271710476
+    second: "ma tr\xE0nh_103"
+  - first:
+      213: -6310280477638093042
+    second: "ma tr\xE0nh_104"
+  - first:
+      213: -7310533899381134353
+    second: "ma tr\xE0nh_105"
+  - first:
+      213: -6333806447550896189
+    second: "ma tr\xE0nh_106"
+  - first:
+      213: 6500116864613097110
+    second: "ma tr\xE0nh_107"
+  - first:
+      213: 4831695998113239736
+    second: "ma tr\xE0nh_108"
+  - first:
+      213: 6276267890201871519
+    second: "ma tr\xE0nh_109"
+  - first:
+      213: 2046201631192830470
+    second: "ma tr\xE0nh_110"
+  - first:
+      213: 4335897258606435513
+    second: "ma tr\xE0nh_111"
+  - first:
+      213: 1166501296328787982
+    second: "ma tr\xE0nh_112"
+  - first:
+      213: 4911605347461775648
+    second: "ma tr\xE0nh_113"
+  - first:
+      213: -8737644843703876276
+    second: "ma tr\xE0nh_114"
+  - first:
+      213: -6952236669291330688
+    second: "ma tr\xE0nh_115"
+  - first:
+      213: -91703602922690911
+    second: "ma tr\xE0nh_116"
+  - first:
+      213: 1525842103998496640
+    second: "ma tr\xE0nh_117"
+  - first:
+      213: -3447077725140027119
+    second: "ma tr\xE0nh_118"
+  - first:
+      213: 7022432757983083864
+    second: "ma tr\xE0nh_119"
+  - first:
+      213: -4138818424149486907
+    second: "ma tr\xE0nh_120"
+  - first:
+      213: -5466683439546903630
+    second: "ma tr\xE0nh_121"
+  - first:
+      213: 1931099175984537077
+    second: "ma tr\xE0nh_122"
+  - first:
+      213: 6289210359867933171
+    second: "ma tr\xE0nh_123"
+  - first:
+      213: 2597272034835056066
+    second: "ma tr\xE0nh_124"
+  - first:
+      213: -8047725930511725285
+    second: "ma tr\xE0nh_125"
+  - first:
+      213: -3205195440583481726
+    second: "ma tr\xE0nh_126"
+  - first:
+      213: 5752555178298494344
+    second: "ma tr\xE0nh_127"
+  - first:
+      213: 4182924529586348464
+    second: "ma tr\xE0nh_128"
+  - first:
+      213: 6259677275124867239
+    second: "ma tr\xE0nh_129"
+  - first:
+      213: 569447544540379780
+    second: "ma tr\xE0nh_130"
+  - first:
+      213: 7367851523609817167
+    second: "ma tr\xE0nh_131"
+  - first:
+      213: -2252961933822019860
+    second: "ma tr\xE0nh_132"
+  - first:
+      213: -5820366797213239131
+    second: "ma tr\xE0nh_133"
+  - first:
+      213: 4027080671937015562
+    second: "ma tr\xE0nh_134"
+  - first:
+      213: -6534707844164799835
+    second: "ma tr\xE0nh_135"
+  - first:
+      213: -8797111937428846637
+    second: "ma tr\xE0nh_136"
+  - first:
+      213: -5995526814221108239
+    second: "ma tr\xE0nh_137"
+  - first:
+      213: 5986287854592363437
+    second: "ma tr\xE0nh_138"
+  - first:
+      213: -8911556567680337680
+    second: "ma tr\xE0nh_139"
+  - first:
+      213: 4759768409068780970
+    second: "ma tr\xE0nh_140"
+  - first:
+      213: 1875014778347068859
+    second: "ma tr\xE0nh_141"
+  - first:
+      213: 2708804996737938351
+    second: "ma tr\xE0nh_142"
+  - first:
+      213: -4728080459017178922
+    second: "ma tr\xE0nh_143"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MA_TRANH_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3195
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bead4a77fe27658a2135ac6a1d52fa
+      internalID: -728287116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_1
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 3195
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021a0dcda94e81d13837c8f457335aec
+      internalID: 2029237320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_2
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 3195
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02255279a6843cd4ab83df16ba194268
+      internalID: 145291571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_3
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 3195
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d176d2b3a08fafc67832c44ecef57464
+      internalID: -2093523972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_4
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 3195
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdc20614dd538da8b7025821a586945
+      internalID: 1291211571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_5
+      rect:
+        serializedVersion: 2
+        x: 4115
+        y: 3195
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd99f45e470323e595b2fb57c889abb
+      internalID: 2033819784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2130
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714d7232a4eb5c8da96e556176bbd41e
+      internalID: 1101244652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_7
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 2130
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c47dcfb0a8519058edfc0b83dd5dc3
+      internalID: 1999229619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_8
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 2130
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378852a7ee015cfd5a4c2311627ec938
+      internalID: -313323418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_9
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 2130
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6318ca5dd09b91227824d85a7c42c41c
+      internalID: 589706263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_10
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 2130
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8a8507e36a66f9fa6503052fa2af0f
+      internalID: 1584094130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_11
+      rect:
+        serializedVersion: 2
+        x: 4115
+        y: 2130
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebc0554622cdafe2907efd3520627c1
+      internalID: 584393117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1065
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a78ebfd782d38e55a145309e0869cf1
+      internalID: -395549340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_13
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1065
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff41643514b6347f9de23e4f457fea1
+      internalID: -727677579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_14
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1065
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9078fc429990895e0ae5f1c31611b3d5
+      internalID: 617285197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_15
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 1065
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00224950ae7356028978946e9a23c736
+      internalID: -563186789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_16
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 1065
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e89c57c28d3f8ecc821454655d8f36e
+      internalID: 1255209791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_17
+      rect:
+        serializedVersion: 2
+        x: 4115
+        y: 1065
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2b785c1d4e35275ac5356bf5a3c1ca
+      internalID: 417531545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcf5f453ffed69bf8835f59c662678d
+      internalID: -136539132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_19
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 0
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec25e9329333a55fd9a5159cd904d70a
+      internalID: 1890044955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_20
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 0
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e74a1788843455f8575861ae6a6bc5
+      internalID: 1754774191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_21
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 0
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8473be0ada7bf147a25bec766a23859
+      internalID: 1324079219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_22
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 0
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b31000e3cb6ba95a9bcecb40460b03
+      internalID: -2038922579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TRANH_23
+      rect:
+        serializedVersion: 2
+        x: 4115
+        y: 0
+        width: 823
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712f269394eea161ebe50efc24393cc7
+      internalID: 1202740662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5d4af820d6e9ab7f59b0b23c201267ed
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":4.0},"gridSpriteSize":{"x":823.0,"y":1065.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MA_TRANH_0: -728287116
+      MA_TRANH_1: 2029237320
+      MA_TRANH_10: 1584094130
+      MA_TRANH_11: 584393117
+      MA_TRANH_12: -395549340
+      MA_TRANH_13: -727677579
+      MA_TRANH_14: 617285197
+      MA_TRANH_15: -563186789
+      MA_TRANH_16: 1255209791
+      MA_TRANH_17: 417531545
+      MA_TRANH_18: -136539132
+      MA_TRANH_19: 1890044955
+      MA_TRANH_2: 145291571
+      MA_TRANH_20: 1754774191
+      MA_TRANH_21: 1324079219
+      MA_TRANH_22: -2038922579
+      MA_TRANH_23: 1202740662
+      MA_TRANH_3: -2093523972
+      MA_TRANH_4: 1291211571
+      MA_TRANH_5: 2033819784
+      MA_TRANH_6: 1101244652
+      MA_TRANH_7: 1999229619
+      MA_TRANH_8: -313323418
+      MA_TRANH_9: 589706263
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,743 @@
+fileFormatVersion: 2
+guid: 45e722cfbfc9493679832f8c6797a8ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4679929009829124598
+    second: ma da_0
+  - first:
+      213: -6968162935753732516
+    second: ma da_1
+  - first:
+      213: -3162821504585739544
+    second: ma da_2
+  - first:
+      213: -382352540311176157
+    second: ma da_3
+  - first:
+      213: -6029621052000227006
+    second: ma da_4
+  - first:
+      213: 5025055508584956985
+    second: ma da_5
+  - first:
+      213: 2950094349301537881
+    second: ma da_6
+  - first:
+      213: 3222584569014691415
+    second: ma da_7
+  - first:
+      213: -223314307340860468
+    second: ma da_8
+  - first:
+      213: -5853660497545074696
+    second: ma da_9
+  - first:
+      213: 1106957898824352378
+    second: ma da_10
+  - first:
+      213: -7860737336231549663
+    second: ma da_11
+  - first:
+      213: -3458062787940073989
+    second: ma da_12
+  - first:
+      213: -5718192468725631344
+    second: ma da_13
+  - first:
+      213: 5254917192272321257
+    second: ma da_14
+  - first:
+      213: 8283464953344881454
+    second: ma da_15
+  - first:
+      213: -1267332366698295277
+    second: ma da_16
+  - first:
+      213: -8816639921929008493
+    second: ma da_17
+  - first:
+      213: 6820132733400526108
+    second: ma da_18
+  - first:
+      213: -1525221353908319937
+    second: ma da_19
+  - first:
+      213: -4017938100849553750
+    second: ma da_20
+  - first:
+      213: -3879339021501864866
+    second: ma da_21
+  - first:
+      213: -708523252604205550
+    second: ma da_22
+  - first:
+      213: 6109317185370389546
+    second: ma da_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MA_DA_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3195
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828dc84457a39510da9ff02e2b18a88e
+      internalID: -2048686506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_1
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 3195
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31945eac8a847a200891aff9cdc91c32
+      internalID: -2131421589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_2
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 3195
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664ec83c7b6165bf4862f24b16b672b9
+      internalID: 2058161452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_3
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 3195
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b30c2f3b494484799c5459b1b458891
+      internalID: 1841254260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_4
+      rect:
+        serializedVersion: 2
+        x: 3496
+        y: 3195
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8dd6e64a0a0e70188c25db0f1cd3a05
+      internalID: 1859304065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_5
+      rect:
+        serializedVersion: 2
+        x: 4370
+        y: 3195
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3169d021711710c790d0026c6bbd0c2
+      internalID: 441058716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2130
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fd637c862c2dfbdad363bdc3b21aa9
+      internalID: 1113028475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_7
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 2130
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea1d1be86445f2ce80d648a176fd2b3
+      internalID: 1355536242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_8
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 2130
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e924e8379cfa5052b4960ecd7d6cca9
+      internalID: -83476533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_9
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 2130
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4ce738e6e274400998e1efb64b0470
+      internalID: -530323841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_10
+      rect:
+        serializedVersion: 2
+        x: 3496
+        y: 2130
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508bd62787cd46f4d888a354def8bd74
+      internalID: -1267661403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_11
+      rect:
+        serializedVersion: 2
+        x: 4370
+        y: 2130
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ab9685aea278137b0ba60a0f7e55b3
+      internalID: 1976430134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1065
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbffdfe24f055262f81bd33df36a3c74
+      internalID: 1824738495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_13
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1065
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5982068f9bccaa8c80a124b92a198ee
+      internalID: -2081379403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_14
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 1065
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe135c74d2df40919721d920982f2f8
+      internalID: -1319078469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_15
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 1065
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9031f6b62c5b8558795e7152d822a83d
+      internalID: -929168735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_16
+      rect:
+        serializedVersion: 2
+        x: 3496
+        y: 1065
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea49e60c4cfd8d0859dad7a1d1a71689
+      internalID: 91564782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_17
+      rect:
+        serializedVersion: 2
+        x: 4370
+        y: 1065
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b564e1c23ea9e7a6cb3889d9003babe0
+      internalID: -163459408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2100840da713f7e4aaad7a71da94e5cc
+      internalID: 92891935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_19
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 0
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8868c5fa695cbe7b17c92c86b51bcf
+      internalID: 990649728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_20
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 0
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff2a149033ada35bb17d927b1e01840
+      internalID: 1843381614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_21
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 0
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4d1a141eb4b2f7699f6a6ef82cb5ae
+      internalID: 428994494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_22
+      rect:
+        serializedVersion: 2
+        x: 3496
+        y: 0
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec3315a6ef124081bc29f15b33d2856
+      internalID: -1325522946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_DA_23
+      rect:
+        serializedVersion: 2
+        x: 4370
+        y: 0
+        width: 874
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1672a49518eb769c8bb976154218f022
+      internalID: 1423456592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a57a5492d755f75c6aedc48ff0665c8d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":4.0},"gridSpriteSize":{"x":874.0,"y":1065.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MA_DA_0: -2048686506
+      MA_DA_1: -2131421589
+      MA_DA_10: -1267661403
+      MA_DA_11: 1976430134
+      MA_DA_12: 1824738495
+      MA_DA_13: -2081379403
+      MA_DA_14: -1319078469
+      MA_DA_15: -929168735
+      MA_DA_16: 91564782
+      MA_DA_17: -163459408
+      MA_DA_18: 92891935
+      MA_DA_19: 990649728
+      MA_DA_2: 2058161452
+      MA_DA_20: 1843381614
+      MA_DA_21: 428994494
+      MA_DA_22: -1325522946
+      MA_DA_23: 1423456592
+      MA_DA_3: 1841254260
+      MA_DA_4: 1859304065
+      MA_DA_5: 441058716
+      MA_DA_6: 1113028475
+      MA_DA_7: 1355536242
+      MA_DA_8: -83476533
+      MA_DA_9: -530323841
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

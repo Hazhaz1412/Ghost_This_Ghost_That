@@ -1,0 +1,769 @@
+fileFormatVersion: 2
+guid: df7f0881d64e242bebc4d43a53b0ff60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7166925886509220472
+    second: "ma 1 d\xF2_0"
+  - first:
+      213: 568498564554392070
+    second: "ma 1 d\xF2_1"
+  - first:
+      213: -536634387485656654
+    second: "ma 1 d\xF2_2"
+  - first:
+      213: -7714448628009125039
+    second: "ma 1 d\xF2_3"
+  - first:
+      213: 762534403773358949
+    second: "ma 1 d\xF2_4"
+  - first:
+      213: 7779880478194085338
+    second: "ma 1 d\xF2_5"
+  - first:
+      213: -1165527643617040502
+    second: "ma 1 d\xF2_6"
+  - first:
+      213: 2831270117741681031
+    second: "ma 1 d\xF2_7"
+  - first:
+      213: 5382001189424210399
+    second: "ma 1 d\xF2_8"
+  - first:
+      213: 6985005775366218504
+    second: "ma 1 d\xF2_9"
+  - first:
+      213: -1268207549226594575
+    second: "ma 1 d\xF2_10"
+  - first:
+      213: 4811399814269984528
+    second: "ma 1 d\xF2_11"
+  - first:
+      213: -8163142296764677197
+    second: "ma 1 d\xF2_12"
+  - first:
+      213: 5834211733268560669
+    second: "ma 1 d\xF2_13"
+  - first:
+      213: -2082263357950319715
+    second: "ma 1 d\xF2_14"
+  - first:
+      213: -8051482607512056488
+    second: "ma 1 d\xF2_15"
+  - first:
+      213: -8329976366869533883
+    second: "ma 1 d\xF2_16"
+  - first:
+      213: 9026947165534325030
+    second: "ma 1 d\xF2_17"
+  - first:
+      213: -6105057066122891213
+    second: "ma 1 d\xF2_18"
+  - first:
+      213: -936946579047552238
+    second: "ma 1 d\xF2_19"
+  - first:
+      213: 3720884653918747861
+    second: "ma 1 d\xF2_20"
+  - first:
+      213: 8045429040780780086
+    second: "ma 1 d\xF2_21"
+  - first:
+      213: 3965702101915202889
+    second: "ma 1 d\xF2_22"
+  - first:
+      213: 7084552979636056975
+    second: "ma 1 d\xF2_23"
+  - first:
+      213: 1901237983284279758
+    second: "ma 1 d\xF2_24"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: QUY_MOT_DO_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3618
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e71e57a223ad7a8fa277f2d38ca3600
+      internalID: -1001717646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_1
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 3618
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a55d7531786d03ca9edd950a157c44
+      internalID: -1554669465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_2
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 3618
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5cc39b1f3265d3ebd307b81e73445f
+      internalID: -1867362300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_3
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 3618
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e290aad99dcc627bb8d5c22aa4278f
+      internalID: 1955320226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_4
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 3618
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4363ceb15e40cab549e3e6b91c05321f
+      internalID: 1008980676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_5
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 3618
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745840b8ee334b0b2b722ca53f1dc81b
+      internalID: -2118748652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_6
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 3618
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8345d0e145f373f07b277844d1033539
+      internalID: 1366622514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2412
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda1b87e1e450f152a2899e243c80442
+      internalID: -350239296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_8
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 2412
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a712ab9c6f0628489c1c4aa9840d4a8
+      internalID: 1275740788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_9
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 2412
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5539d102670cf9799e7c93bfed47115
+      internalID: 471622394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_10
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 2412
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271dca9923212f0038accc0500d8f5bb
+      internalID: 530441183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_11
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 2412
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cf78448751474d7a748d2e131e8a5a
+      internalID: 1782703562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_12
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 2412
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eca6bedb9dbd1aa0803ada8349e9986
+      internalID: 467876464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_13
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 2412
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c199323068d059444ad669f142c42e8b
+      internalID: 588746410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1206
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59c617a409130b4d80a257efe35b7d4
+      internalID: 367694571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_15
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1206
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37263c578edeaf07b74c8d72878ffae
+      internalID: -628238502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_16
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1206
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6225d1704aeee3e7bada2916c45f7477
+      internalID: 2005455513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_17
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 1206
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5162a9ec384e31cad89e7e809ec4fa
+      internalID: 777666362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_18
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 1206
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4106f65048962a231920989918cb5415
+      internalID: 1395717340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_19
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 1206
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79145f2a5bbb9e0299a3dfddd7ae03a
+      internalID: -1192909204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_20
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 1206
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03dde1c2282fc8ff89f455db06723bb6
+      internalID: 1614685130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b708e91b82c6e192c99c62e3f516c5cc
+      internalID: -1771522668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_22
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdb48983cff1235294b14b5cf078347
+      internalID: -1370861170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_23
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 0
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9801ff8d2b33c748b84e9c2de71d1c56
+      internalID: -2062694738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QUY_MOT_DO_24
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 0
+        width: 636
+        height: 1206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71efa9545b4be102187e86db3bb9946d
+      internalID: 1609216360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3ad2a240e4549f3f78d563b3a06af238
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":4.0},"gridSpriteSize":{"x":636.0,"y":1206.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      QUY_MOT_DO_0: -1001717646
+      QUY_MOT_DO_1: -1554669465
+      QUY_MOT_DO_10: 530441183
+      QUY_MOT_DO_11: 1782703562
+      QUY_MOT_DO_12: 467876464
+      QUY_MOT_DO_13: 588746410
+      QUY_MOT_DO_14: 367694571
+      QUY_MOT_DO_15: -628238502
+      QUY_MOT_DO_16: 2005455513
+      QUY_MOT_DO_17: 777666362
+      QUY_MOT_DO_18: 1395717340
+      QUY_MOT_DO_19: -1192909204
+      QUY_MOT_DO_2: -1867362300
+      QUY_MOT_DO_20: 1614685130
+      QUY_MOT_DO_21: -1771522668
+      QUY_MOT_DO_22: -1370861170
+      QUY_MOT_DO_23: -2062694738
+      QUY_MOT_DO_24: 1609216360
+      QUY_MOT_DO_3: 1955320226
+      QUY_MOT_DO_4: 1008980676
+      QUY_MOT_DO_5: -2118748652
+      QUY_MOT_DO_6: 1366622514
+      QUY_MOT_DO_7: -350239296
+      QUY_MOT_DO_8: 1275740788
+      QUY_MOT_DO_9: 471622394
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

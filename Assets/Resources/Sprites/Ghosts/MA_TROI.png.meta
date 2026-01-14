@@ -1,0 +1,770 @@
+fileFormatVersion: 2
+guid: 27fabcc7ffa4c1f9cb1aeb6a2bb02c37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3193932786275293699
+    second: "ma tr\u01A1i_0"
+  - first:
+      213: -2364323250525352998
+    second: "ma tr\u01A1i_1"
+  - first:
+      213: 5888500524656157303
+    second: "ma tr\u01A1i_2"
+  - first:
+      213: 3594593353162339649
+    second: "ma tr\u01A1i_3"
+  - first:
+      213: 5037539907260876244
+    second: "ma tr\u01A1i_4"
+  - first:
+      213: -5094407890952845833
+    second: "ma tr\u01A1i_5"
+  - first:
+      213: 3122151725827883599
+    second: "ma tr\u01A1i_6"
+  - first:
+      213: 6392058608766668783
+    second: "ma tr\u01A1i_7"
+  - first:
+      213: 3518799633851322861
+    second: "ma tr\u01A1i_8"
+  - first:
+      213: 7845231632627654039
+    second: "ma tr\u01A1i_9"
+  - first:
+      213: 2692605200711380304
+    second: "ma tr\u01A1i_10"
+  - first:
+      213: 2453710515147839441
+    second: "ma tr\u01A1i_11"
+  - first:
+      213: 1768690919311113078
+    second: "ma tr\u01A1i_12"
+  - first:
+      213: -6401167337378818452
+    second: "ma tr\u01A1i_13"
+  - first:
+      213: 566530188053054989
+    second: "ma tr\u01A1i_14"
+  - first:
+      213: -1220405595130958711
+    second: "ma tr\u01A1i_15"
+  - first:
+      213: -292513798114404279
+    second: "ma tr\u01A1i_16"
+  - first:
+      213: 1797316105127630333
+    second: "ma tr\u01A1i_17"
+  - first:
+      213: 6059435093135866617
+    second: "ma tr\u01A1i_18"
+  - first:
+      213: 8476559200625431142
+    second: "ma tr\u01A1i_19"
+  - first:
+      213: 3036522875606546331
+    second: "ma tr\u01A1i_20"
+  - first:
+      213: -4535598970598237120
+    second: "ma tr\u01A1i_21"
+  - first:
+      213: -4685808745636095515
+    second: "ma tr\u01A1i_22"
+  - first:
+      213: 7094179735604050492
+    second: "ma tr\u01A1i_23"
+  - first:
+      213: -6947932922931301715
+    second: "ma tr\u01A1i_24"
+  - first:
+      213: 744556471251763905
+    second: "ma tr\u01A1i_25"
+  - first:
+      213: -7298973811719790634
+    second: "ma tr\u01A1i_26"
+  - first:
+      213: -7361754920666350751
+    second: "ma tr\u01A1i_27"
+  - first:
+      213: -8809058203736740977
+    second: "ma tr\u01A1i_28"
+  - first:
+      213: -5116199374332740046
+    second: "ma tr\u01A1i_29"
+  - first:
+      213: -6935347139123426698
+    second: "ma tr\u01A1i_30"
+  - first:
+      213: 4911467812894185877
+    second: "ma tr\u01A1i_31"
+  - first:
+      213: 2700760477715155036
+    second: "ma tr\u01A1i_32"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MA_TROI_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2979
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0986c4aad3af1439fd946a69b259d2
+      internalID: 1425673142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_1
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 2979
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b10752c3567f5b69388ad5eaad5e9d
+      internalID: 1375027133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_2
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 2979
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478daec705c8a3272b1039b6446945c9
+      internalID: -1360836134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_3
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 2979
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4d756b45699a012af90c3e863de1bd
+      internalID: -1748949524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_4
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 2979
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0df7e3d31ac0af8a8b68786e7070d54
+      internalID: 1333534054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_5
+      rect:
+        serializedVersion: 2
+        x: 3260
+        y: 2979
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52e339ab355a40238e45cb850c805d4
+      internalID: -1754103411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_6
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 2979
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6a74b7f27c6d9008126c8a970af316
+      internalID: -754502245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1986
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182f90720f6a9589a9c58010a2808ad9
+      internalID: -1758374323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_8
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1986
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec7d55f99a2660a38a5dc3e807f9fe3
+      internalID: 1157287850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_9
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1986
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f661d502f12cef1b1ab8a6833da7ad9c
+      internalID: -1139836774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_10
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 1986
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3ecf103f735564b9d880a2ba66e103
+      internalID: -843366822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_11
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 1986
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae82b16d5777e19389346175fac5ef49
+      internalID: 1158709560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_12
+      rect:
+        serializedVersion: 2
+        x: 3260
+        y: 1986
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa6dab9d7302c15e928f24b01ba252d
+      internalID: 710584145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_13
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 1986
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2833a522f5502c36b84453ba610787ce
+      internalID: -951034476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 993
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8388d4f137e96dc6eb890cd60dda7124
+      internalID: -1142558707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_15
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 993
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1e8613ab4c599ee94b9f08cb0ff7f7
+      internalID: -2091189894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_16
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 993
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0496e6903ccc99e4a8adf8307d035f38
+      internalID: 1064684958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_17
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 993
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d6ba9f2a954d9789386f409d87fae2
+      internalID: 1307093347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_18
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 993
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7dacc8396980759a13657eaa4fa62b
+      internalID: 691284649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_19
+      rect:
+        serializedVersion: 2
+        x: 3260
+        y: 993
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d845c86c57fa6b71ae53ed23d039c8c
+      internalID: -1458892793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_20
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 993
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a280a899cf4f6a0bea3d1913b5d101
+      internalID: -488047393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317ba8bdfc88b9ad28d1736d6e0190c2
+      internalID: 967418612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_22
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 0
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5805b2a2313e64a0b1f9dacde6433ea
+      internalID: 1844421960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_TROI_23
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 0
+        width: 652
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a47ec4aaa62cf1749b0ba472cf2b904
+      internalID: -904257444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 77a54a5e58980fd8fa39491cff35fc2b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":4.0},"gridSpriteSize":{"x":652.0,"y":993.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MA_TROI_0: 1425673142
+      MA_TROI_1: 1375027133
+      MA_TROI_10: -843366822
+      MA_TROI_11: 1158709560
+      MA_TROI_12: 710584145
+      MA_TROI_13: -951034476
+      MA_TROI_14: -1142558707
+      MA_TROI_15: -2091189894
+      MA_TROI_16: 1064684958
+      MA_TROI_17: 1307093347
+      MA_TROI_18: 691284649
+      MA_TROI_19: -1458892793
+      MA_TROI_2: -1360836134
+      MA_TROI_20: -488047393
+      MA_TROI_21: 967418612
+      MA_TROI_22: 1844421960
+      MA_TROI_23: -904257444
+      MA_TROI_3: -1748949524
+      MA_TROI_4: 1333534054
+      MA_TROI_5: -1754103411
+      MA_TROI_6: -754502245
+      MA_TROI_7: -1758374323
+      MA_TROI_8: 1157287850
+      MA_TROI_9: -1139836774
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

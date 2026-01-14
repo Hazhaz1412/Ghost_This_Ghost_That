@@ -1,0 +1,815 @@
+fileFormatVersion: 2
+guid: a14feaa4916f61fb0b2279dd6c059e82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7742412929397667115
+    second: "\xC2m binh_0"
+  - first:
+      213: -2189849816044335245
+    second: "\xC2m binh_1"
+  - first:
+      213: 268796695817469260
+    second: "\xC2m binh_2"
+  - first:
+      213: -69736341776837715
+    second: "\xC2m binh_3"
+  - first:
+      213: -7644000903978491466
+    second: "\xC2m binh_4"
+  - first:
+      213: 5828074264708745339
+    second: "\xC2m binh_5"
+  - first:
+      213: -5541862057882372672
+    second: "\xC2m binh_6"
+  - first:
+      213: -3898922289402668783
+    second: "\xC2m binh_7"
+  - first:
+      213: 3398157804428362742
+    second: "\xC2m binh_8"
+  - first:
+      213: 1301399752087013371
+    second: "\xC2m binh_9"
+  - first:
+      213: 4891672210024435096
+    second: "\xC2m binh_10"
+  - first:
+      213: 3598871472187371918
+    second: "\xC2m binh_11"
+  - first:
+      213: 6206894255942190517
+    second: "\xC2m binh_12"
+  - first:
+      213: 5487256510463892436
+    second: "\xC2m binh_13"
+  - first:
+      213: -7193419428417714029
+    second: "\xC2m binh_14"
+  - first:
+      213: 4268393701761441399
+    second: "\xC2m binh_15"
+  - first:
+      213: 6325331721041903299
+    second: "\xC2m binh_16"
+  - first:
+      213: -8629137677344368040
+    second: "\xC2m binh_17"
+  - first:
+      213: -8065958074234269316
+    second: "\xC2m binh_18"
+  - first:
+      213: 9017842585645157577
+    second: "\xC2m binh_19"
+  - first:
+      213: -1967449777941934327
+    second: "\xC2m binh_20"
+  - first:
+      213: 1132180114873287213
+    second: "\xC2m binh_21"
+  - first:
+      213: 7204780208719909409
+    second: "\xC2m binh_22"
+  - first:
+      213: 4278035286129221913
+    second: "\xC2m binh_23"
+  - first:
+      213: 4521498597312275704
+    second: "\xC2m binh_24"
+  - first:
+      213: 8945546256045345285
+    second: "\xC2m binh_25"
+  - first:
+      213: -5695068579161299770
+    second: "\xC2m binh_26"
+  - first:
+      213: -5899888447060159885
+    second: "\xC2m binh_27"
+  - first:
+      213: 348657905487262150
+    second: "\xC2m binh_28"
+  - first:
+      213: 3853407617745394431
+    second: "\xC2m binh_29"
+  - first:
+      213: -1745203940979440331
+    second: "\xC2m binh_30"
+  - first:
+      213: 7884772049471492182
+    second: "\xC2m binh_31"
+  - first:
+      213: -3164337438520869721
+    second: "\xC2m binh_32"
+  - first:
+      213: 2069897862464564786
+    second: "\xC2m binh_33"
+  - first:
+      213: 1403772666274189472
+    second: "\xC2m binh_34"
+  - first:
+      213: 4108780989480569891
+    second: "\xC2m binh_35"
+  - first:
+      213: -8594032478709103381
+    second: "\xC2m binh_36"
+  - first:
+      213: 1956425065206501463
+    second: "\xC2m binh_37"
+  - first:
+      213: -774363717481353057
+    second: "\xC2m binh_38"
+  - first:
+      213: 3126195531197898782
+    second: "\xC2m binh_39"
+  - first:
+      213: 23535232920695073
+    second: "\xC2m binh_40"
+  - first:
+      213: 7961596128832586146
+    second: "\xC2m binh_41"
+  - first:
+      213: -2712550990423440594
+    second: "\xC2m binh_42"
+  - first:
+      213: 4749876898570456663
+    second: "\xC2m binh_43"
+  - first:
+      213: -7960374825097278925
+    second: "\xC2m binh_44"
+  - first:
+      213: -1388806682277454218
+    second: "\xC2m binh_45"
+  - first:
+      213: 5133205937459140444
+    second: "\xC2m binh_46"
+  - first:
+      213: 3848803874164387263
+    second: "\xC2m binh_47"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AM_BINH_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3195
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ee30404cee0710a974067a24628836
+      internalID: 420175113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_1
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 3195
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e71e87a39b16efbbd689b5cfae0097
+      internalID: -1649676787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_2
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 3195
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebe36a01fb2839f896775164472e7f1
+      internalID: -350894973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_3
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 3195
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3875a06c6480239a51138eceb4b960
+      internalID: -1360908679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_4
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 3195
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2917460be2f2a20cf96f6d0a20d0ecc7
+      internalID: -2042215827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_5
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 3195
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb05bfef6a177e70bb70096f4dcaa56
+      internalID: -1664157696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_6
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 3195
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95067022412a564e39e94de833af72db
+      internalID: 1676316997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2130
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6604b34a7f3278d629c098742f09df5c
+      internalID: 1966773337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_8
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 2130
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50cbbbb044d77fe0aeb390e088d0c9c
+      internalID: 1493139031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_9
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 2130
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf06c1cace4789df185b58089c97e4f4
+      internalID: 1529679607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_10
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 2130
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363da100898fb1e37ab6f939ce8c32fa
+      internalID: 113182408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_11
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 2130
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a794797e2f7a48939bf6e0fb4923314
+      internalID: -270794198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_12
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 2130
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f772c9ff0df5754a786a09a4d97084
+      internalID: -438617853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_13
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 2130
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6ed7fe78b0c0645893532e4450ca69
+      internalID: 1887587305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1065
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03144e698503290be9ec02bfbd2705d0
+      internalID: -1231552187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_15
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1065
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f5909b908a8389ea3d3956d23bbdbe
+      internalID: 732585650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_16
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1065
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9840dd81b7f98f549883f0ebeb6bb788
+      internalID: 2128137997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_17
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1065
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4721278764950f9f18dfcfe36a2776b6
+      internalID: -247432871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_18
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 1065
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c2e638e4f6f28ffb596e127e124417
+      internalID: -292980106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_19
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 1065
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d68b389a73e6006b514351ea54f254
+      internalID: -1003599510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_20
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 1065
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c8bb500f0291470a01731cd9f3a0ef
+      internalID: 2074226760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbfc0728714faa9d94f063eb39c93c4
+      internalID: -1821755681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_22
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1abac0aa58fece6b44bc80504293a8
+      internalID: 1695406463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AM_BINH_23
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 0
+        width: 632
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5110dcbd31d0f9b42aa17291f8c0d7a5
+      internalID: 1209147735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6bf60aa0895bde9789e5b2f7eb75bd40
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":4.0},"gridSpriteSize":{"x":632.0,"y":1065.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      AM_BINH_0: 420175113
+      AM_BINH_1: -1649676787
+      AM_BINH_10: 113182408
+      AM_BINH_11: -270794198
+      AM_BINH_12: -438617853
+      AM_BINH_13: 1887587305
+      AM_BINH_14: -1231552187
+      AM_BINH_15: 732585650
+      AM_BINH_16: 2128137997
+      AM_BINH_17: -247432871
+      AM_BINH_18: -292980106
+      AM_BINH_19: -1003599510
+      AM_BINH_2: -350894973
+      AM_BINH_20: 2074226760
+      AM_BINH_21: -1821755681
+      AM_BINH_22: 1695406463
+      AM_BINH_23: 1209147735
+      AM_BINH_3: -1360908679
+      AM_BINH_4: -2042215827
+      AM_BINH_5: -1664157696
+      AM_BINH_6: 1676316997
+      AM_BINH_7: 1966773337
+      AM_BINH_8: 1493139031
+      AM_BINH_9: 1529679607
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

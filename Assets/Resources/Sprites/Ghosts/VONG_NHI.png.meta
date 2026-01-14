@@ -1,0 +1,818 @@
+fileFormatVersion: 2
+guid: 05f4193d016cd7b1ba8762156e2dc131
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7921147038208232390
+    second: vong nhi_0
+  - first:
+      213: -9097832287177697240
+    second: vong nhi_1
+  - first:
+      213: -1883640173063360099
+    second: vong nhi_2
+  - first:
+      213: -3055117299135183369
+    second: vong nhi_3
+  - first:
+      213: -8276652769420607831
+    second: vong nhi_4
+  - first:
+      213: 5062587396528366363
+    second: vong nhi_5
+  - first:
+      213: 5212489264010817895
+    second: vong nhi_6
+  - first:
+      213: 2169768239171111548
+    second: vong nhi_7
+  - first:
+      213: 3302585132712700608
+    second: vong nhi_8
+  - first:
+      213: 8167507525217921671
+    second: vong nhi_9
+  - first:
+      213: 314843522593743870
+    second: vong nhi_10
+  - first:
+      213: -5641487946615392390
+    second: vong nhi_11
+  - first:
+      213: -5090382989958395603
+    second: vong nhi_12
+  - first:
+      213: -4575167655722943301
+    second: vong nhi_13
+  - first:
+      213: 5413329458272409965
+    second: vong nhi_14
+  - first:
+      213: 4987763833870983411
+    second: vong nhi_15
+  - first:
+      213: 5307713781567596567
+    second: vong nhi_16
+  - first:
+      213: 3119738604689133563
+    second: vong nhi_17
+  - first:
+      213: -5666873301207575592
+    second: vong nhi_18
+  - first:
+      213: -9106504919815178775
+    second: vong nhi_19
+  - first:
+      213: -406952725954458422
+    second: vong nhi_20
+  - first:
+      213: -1908218359865636630
+    second: vong nhi_21
+  - first:
+      213: 4437986176043000238
+    second: vong nhi_22
+  - first:
+      213: 316863980501798333
+    second: vong nhi_23
+  - first:
+      213: 6587288173839245896
+    second: vong nhi_24
+  - first:
+      213: 4859083623978323320
+    second: vong nhi_25
+  - first:
+      213: -4540427344513704803
+    second: vong nhi_26
+  - first:
+      213: -2356047625793993361
+    second: vong nhi_27
+  - first:
+      213: -2692395953059093109
+    second: vong nhi_28
+  - first:
+      213: 410415105227871932
+    second: vong nhi_29
+  - first:
+      213: 778776749358030704
+    second: vong nhi_30
+  - first:
+      213: -5786568546107137005
+    second: vong nhi_31
+  - first:
+      213: 6265910312585605865
+    second: vong nhi_32
+  - first:
+      213: 6720794769347307269
+    second: vong nhi_33
+  - first:
+      213: 2606290898046341174
+    second: vong nhi_34
+  - first:
+      213: 5832924250090675370
+    second: vong nhi_35
+  - first:
+      213: -4051550806739441228
+    second: vong nhi_36
+  - first:
+      213: -3137521500996874448
+    second: vong nhi_37
+  - first:
+      213: -590219608762818650
+    second: vong nhi_38
+  - first:
+      213: -2004640707595257195
+    second: vong nhi_39
+  - first:
+      213: 8061205716540635187
+    second: vong nhi_40
+  - first:
+      213: 5755192310054238444
+    second: vong nhi_41
+  - first:
+      213: 3517075252382348901
+    second: vong nhi_42
+  - first:
+      213: 8189630576591619791
+    second: vong nhi_43
+  - first:
+      213: 7883607782785434457
+    second: vong nhi_44
+  - first:
+      213: -6324165514815573286
+    second: vong nhi_45
+  - first:
+      213: 3204394993740706837
+    second: vong nhi_46
+  - first:
+      213: -6750006353150834677
+    second: vong nhi_47
+  - first:
+      213: -6827894017759890687
+    second: vong nhi_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VONG_NHI_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2343
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b854dd4f6429419b1b37551f13bce3
+      internalID: 1920796894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_1
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 2343
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3942fc309c70943a345318d0ea616e
+      internalID: -787925928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_2
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 2343
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102364d0b7dae7a7c87db7158ed7e420
+      internalID: -350388574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_3
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 2343
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9194ae3046fe31bc94927e37cf02af4
+      internalID: 339881913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_4
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 2343
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef60955cef1a531fadb429bbf147a6e
+      internalID: 1831726660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_5
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 2343
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed9e90386148f3fdb759af6a6b6dd3b
+      internalID: -1135847917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1562
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421d86770ad2aa647bc8993651d374b3
+      internalID: -1104709214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_7
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1562
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa279a0771c74d1c9e0012be122db0b
+      internalID: 1740748989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_8
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1562
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc9cc30cb9a3a02a9527f21808530b4
+      internalID: -1119545887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_9
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 1562
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fbe4c2b1d1d9117813deaba0dff7be
+      internalID: 1124383217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_10
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1562
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582d392b9047f1b44a31ba8969a382c8
+      internalID: -495226870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_11
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 1562
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66d300a9514c001f824ef0dc4e2fcd1
+      internalID: -2077640102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 781
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b21c3a780b5b1d48c7b73f9a192a79
+      internalID: -1027886855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_13
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 781
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128409d3c96fdd14fbf38696264c4cae
+      internalID: 699270328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_14
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 781
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b584aa5546d3d6bf1b474d3dd3d5fff1
+      internalID: 448553611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_15
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 781
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9062018127eb40a8fb0270af7fc94ff1
+      internalID: -1601030301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_16
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 781
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61dd468bf815192eb3c0dae7b9e8715
+      internalID: -1722046596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_17
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 781
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7548659b64185083b8c70a459321302c
+      internalID: 1111336419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2124a7fca05e16bd988947c8461cc365
+      internalID: -1817099983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3637b4b45b686df9691fa47baf13dc70
+      internalID: -1280988010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_20
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a8d07117545cc3eb5c3ecd9bd7fc2b
+      internalID: -1743872191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_21
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 0
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934e9e9c8bed11fd19a391d1efea2f4d
+      internalID: 395378422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_22
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5705cb25480a9030689d617d44812d69
+      internalID: 2098799055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VONG_NHI_23
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 0
+        width: 608
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31dcd562cd44e1860be71a9087757bf0
+      internalID: 17938667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 25bb3f078ac2bdb10b6ba73460221ca7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":4.0},"gridSpriteSize":{"x":608.0,"y":781.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      VONG_NHI_0: 1920796894
+      VONG_NHI_1: -787925928
+      VONG_NHI_10: -495226870
+      VONG_NHI_11: -2077640102
+      VONG_NHI_12: -1027886855
+      VONG_NHI_13: 699270328
+      VONG_NHI_14: 448553611
+      VONG_NHI_15: -1601030301
+      VONG_NHI_16: -1722046596
+      VONG_NHI_17: 1111336419
+      VONG_NHI_18: -1817099983
+      VONG_NHI_19: -1280988010
+      VONG_NHI_2: -350388574
+      VONG_NHI_20: -1743872191
+      VONG_NHI_21: 395378422
+      VONG_NHI_22: 2098799055
+      VONG_NHI_23: 17938667
+      VONG_NHI_3: 339881913
+      VONG_NHI_4: 1831726660
+      VONG_NHI_5: -1135847917
+      VONG_NHI_6: -1104709214
+      VONG_NHI_7: 1740748989
+      VONG_NHI_8: -1119545887
+      VONG_NHI_9: 1124383217
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

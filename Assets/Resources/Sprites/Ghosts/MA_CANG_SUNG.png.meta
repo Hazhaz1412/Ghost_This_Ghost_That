@@ -1,0 +1,743 @@
+fileFormatVersion: 2
+guid: d22b7cb62dfd0990faadffeb55b8fa73
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1122166653634504439
+    second: "Ma c\xE0n s\xF9ng_0"
+  - first:
+      213: -3329248252863861716
+    second: "Ma c\xE0n s\xF9ng_1"
+  - first:
+      213: 1193238092656782082
+    second: "Ma c\xE0n s\xF9ng_2"
+  - first:
+      213: 4572132375336924003
+    second: "Ma c\xE0n s\xF9ng_3"
+  - first:
+      213: 142408261746203184
+    second: "Ma c\xE0n s\xF9ng_4"
+  - first:
+      213: 7443337350276925105
+    second: "Ma c\xE0n s\xF9ng_5"
+  - first:
+      213: -4121516141283812587
+    second: "Ma c\xE0n s\xF9ng_6"
+  - first:
+      213: 5983498671849738553
+    second: "Ma c\xE0n s\xF9ng_7"
+  - first:
+      213: -1837869841357325188
+    second: "Ma c\xE0n s\xF9ng_8"
+  - first:
+      213: -3219893595311247800
+    second: "Ma c\xE0n s\xF9ng_9"
+  - first:
+      213: 2363140153801303191
+    second: "Ma c\xE0n s\xF9ng_10"
+  - first:
+      213: -6446750981673141243
+    second: "Ma c\xE0n s\xF9ng_11"
+  - first:
+      213: 9065376616020826808
+    second: "Ma c\xE0n s\xF9ng_12"
+  - first:
+      213: -5954799193848720223
+    second: "Ma c\xE0n s\xF9ng_13"
+  - first:
+      213: -564535871204573975
+    second: "Ma c\xE0n s\xF9ng_14"
+  - first:
+      213: 8977463677613529024
+    second: "Ma c\xE0n s\xF9ng_15"
+  - first:
+      213: -4233764532738052743
+    second: "Ma c\xE0n s\xF9ng_16"
+  - first:
+      213: 7914070722525066963
+    second: "Ma c\xE0n s\xF9ng_17"
+  - first:
+      213: -834922365972043626
+    second: "Ma c\xE0n s\xF9ng_18"
+  - first:
+      213: -7001919381578768011
+    second: "Ma c\xE0n s\xF9ng_19"
+  - first:
+      213: 8117353338314258793
+    second: "Ma c\xE0n s\xF9ng_20"
+  - first:
+      213: -5481751316834707007
+    second: "Ma c\xE0n s\xF9ng_21"
+  - first:
+      213: -4619356307357613462
+    second: "Ma c\xE0n s\xF9ng_22"
+  - first:
+      213: -3495100230784810603
+    second: "Ma c\xE0n s\xF9ng_23"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3195
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7610683bc856fcfcb8725d71409f795b
+      internalID: 490572740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_1
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 3195
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb599632bbbec28f9f3b9c311ebec63
+      internalID: 600072024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_2
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 3195
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35e47acce4c09d36856418d3e6796b9
+      internalID: 123864030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_3
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 3195
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8850956fb08055d42be64163d78da16e
+      internalID: -1459294772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_4
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 3195
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374f158d22aa1ad3a963158ad1ac8b89
+      internalID: -745980558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_5
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 3195
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5174d1fce641ddff9ae0f1ed5dfd9a08
+      internalID: -688591417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2130
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3509a5a58b00c2b2b538849187011a5
+      internalID: 2144141284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_7
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 2130
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c295c77b560f255089072a0d2484d520
+      internalID: -466399685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_8
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 2130
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14cdb75657cef5c18b4916085c0eeee
+      internalID: -784463857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_9
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 2130
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8aac755611d3460ab14b8a2ae46a63
+      internalID: -1868294562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_10
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 2130
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b878b24325e0118bbaf6470b994f3a4b
+      internalID: 1485156467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_11
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 2130
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a2cdcde0ccf8ce389e39ff49dcf345
+      internalID: 1252056200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1065
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abac896b25f1fbf7a6cc4b97fbe5b13
+      internalID: 214309655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_13
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1065
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287d86d39a52449489da6c4b42202ba2
+      internalID: 682518759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_14
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1065
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7341d1150da1c19368ed338b6884a220
+      internalID: -1302852349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_15
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1065
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8585f2bb77f1c32689a3dd44d3423e41
+      internalID: 292554658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_16
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 1055
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1635fc5d8092a875b96d82affe7c7e7f
+      internalID: 849625117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_17
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 1065
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926dc185b4678de5589eef2eac29feb2
+      internalID: -1235511635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004acf59ad2fb080f928ead126a308a4
+      internalID: -2133586229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_19
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 0
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b4c2a3b23f6ed62bc37340cf54f2f4
+      internalID: 1188442459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_20
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 0
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477c7071411122d4ea26940fe79dc75c
+      internalID: 1922502520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_21
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 0
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca996ceaec9e91b5a0cd7a0dff59e92
+      internalID: 1716625836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_22
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 0
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f66f9809bcaccc48044582444e12b4
+      internalID: -1621297752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_CAN_SUNG_23
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 0
+        width: 731
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78841917e6b9d9be9b2b34161d974052
+      internalID: -83279559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ab08a0f5ab31bbc2fb5ec6bd92cac557
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":4.0},"gridSpriteSize":{"x":731.0,"y":1065.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MA_CAN_SUNG_0: 490572740
+      MA_CAN_SUNG_1: 600072024
+      MA_CAN_SUNG_10: 1485156467
+      MA_CAN_SUNG_11: 1252056200
+      MA_CAN_SUNG_12: 214309655
+      MA_CAN_SUNG_13: 682518759
+      MA_CAN_SUNG_14: -1302852349
+      MA_CAN_SUNG_15: 292554658
+      MA_CAN_SUNG_16: 849625117
+      MA_CAN_SUNG_17: -1235511635
+      MA_CAN_SUNG_18: -2133586229
+      MA_CAN_SUNG_19: 1188442459
+      MA_CAN_SUNG_2: 123864030
+      MA_CAN_SUNG_20: 1922502520
+      MA_CAN_SUNG_21: 1716625836
+      MA_CAN_SUNG_22: -1621297752
+      MA_CAN_SUNG_23: -83279559
+      MA_CAN_SUNG_3: -1459294772
+      MA_CAN_SUNG_4: -745980558
+      MA_CAN_SUNG_5: -688591417
+      MA_CAN_SUNG_6: 2144141284
+      MA_CAN_SUNG_7: -466399685
+      MA_CAN_SUNG_8: -784463857
+      MA_CAN_SUNG_9: -1868294562
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

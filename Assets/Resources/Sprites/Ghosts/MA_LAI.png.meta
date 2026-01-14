@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: c9abae8b85c3af44f9aa7eca40a053da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5358688669672331498
+    second: ma lai_0
+  - first:
+      213: -5615982648176734413
+    second: ma lai_1
+  - first:
+      213: -7390169271683992144
+    second: ma lai_2
+  - first:
+      213: 3067456276356892295
+    second: ma lai_3
+  - first:
+      213: -4463398017730971155
+    second: ma lai_4
+  - first:
+      213: 6658378039174646408
+    second: ma lai_5
+  - first:
+      213: -1477444023720402591
+    second: ma lai_6
+  - first:
+      213: -7165421157893852444
+    second: ma lai_7
+  - first:
+      213: -5803051529015564908
+    second: ma lai_8
+  - first:
+      213: 7080199765289654461
+    second: ma lai_9
+  - first:
+      213: -5542693715889126887
+    second: ma lai_10
+  - first:
+      213: -2170050962247733376
+    second: ma lai_11
+  - first:
+      213: 7070084283638106024
+    second: ma lai_12
+  - first:
+      213: -5200841917046602924
+    second: ma lai_13
+  - first:
+      213: -280860723162451275
+    second: ma lai_14
+  - first:
+      213: 4145397504850055209
+    second: ma lai_15
+  - first:
+      213: 4060285943049806359
+    second: ma lai_16
+  - first:
+      213: -1763213818182923047
+    second: ma lai_17
+  - first:
+      213: -1248252920241884951
+    second: ma lai_18
+  - first:
+      213: -1974778818724329428
+    second: ma lai_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MA_LAI_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2835
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e76c6ee597b8afa98f05ef97f19348
+      internalID: 78820508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_1
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 2835
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1eebd151fc2b30f48a82d9805e8c55c
+      internalID: 1586690988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_2
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 2835
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb397b4adacc0265b8e59f7957ca9e5
+      internalID: -1257526334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_3
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 2835
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1515ebcd60a00e8dfa382e805ed2ac08
+      internalID: -1094289707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_4
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 2835
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470d0dea29f48b671954b5a6ab8ef2bb
+      internalID: -368656487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1890
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcd4539cf5d427248f67e79abf29435
+      internalID: 805201693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_6
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1890
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c039ec66c1124476fbbf17bc4592f51d
+      internalID: 811383783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_7
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 1890
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0869b13ce33011580aabff1c20e32c9e
+      internalID: 1063065164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_8
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 1890
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a1276ff2ff77bfb927367cbd679af3
+      internalID: -2131846361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_9
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 1890
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878ac695dfaa6ad18b0f981ccb952e5b
+      internalID: 331339257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 945
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01801f9819aa821acb088af2c8310288
+      internalID: 2130177713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_11
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 945
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b30998194780d6ca2b8c60a0d7cfe8
+      internalID: -1710725529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_12
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 945
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f9cb684cfde38adb1442bee756d568
+      internalID: 1674816293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_13
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 945
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad5874e01e76eab89de2037350091e1
+      internalID: -651639633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_14
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 945
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94beaa832b40531b1a35d35dd0ac0f30
+      internalID: 963742655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9999f6c6230166574a3effa4458eadfc
+      internalID: 2001653175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_16
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 0
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763096fd83f7bca968d4c9f29e89c173
+      internalID: -1661449660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_17
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 0
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657d9f0aece4a01649bc33cab25db3f7
+      internalID: 120451295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_18
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 0
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfef6111f2eb9522b9eb4001d33a731b
+      internalID: 1547409308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_LAI_19
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 0
+        width: 872
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2407717fe2738fc87a2fdc4cbd0d1c
+      internalID: -1042947729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: df46f2f99fe7ca0e784a665a5c3afc12
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":4.0},"gridSpriteSize":{"x":872.0,"y":945.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MA_LAI_0: 78820508
+      MA_LAI_1: 1586690988
+      MA_LAI_10: 2130177713
+      MA_LAI_11: -1710725529
+      MA_LAI_12: 1674816293
+      MA_LAI_13: -651639633
+      MA_LAI_14: 963742655
+      MA_LAI_15: 2001653175
+      MA_LAI_16: -1661449660
+      MA_LAI_17: 120451295
+      MA_LAI_18: 1547409308
+      MA_LAI_19: -1042947729
+      MA_LAI_2: -1257526334
+      MA_LAI_3: -1094289707
+      MA_LAI_4: -368656487
+      MA_LAI_5: 805201693
+      MA_LAI_6: 811383783
+      MA_LAI_7: 1063065164
+      MA_LAI_8: -2131846361
+      MA_LAI_9: 331339257
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

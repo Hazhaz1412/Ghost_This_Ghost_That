@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 9c3ae4ee9208c3266a9989b02bed6287
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8313748516149254774
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_0"
+  - first:
+      213: -5328960248781713975
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_1"
+  - first:
+      213: 4666890576564400537
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_2"
+  - first:
+      213: -7542813674638243869
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_3"
+  - first:
+      213: -7179489478183146195
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_4"
+  - first:
+      213: -154693395897096079
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_5"
+  - first:
+      213: -577543025926888754
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_6"
+  - first:
+      213: -279325133843571735
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_7"
+  - first:
+      213: -3061323299962322516
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_8"
+  - first:
+      213: -534352829713084580
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_9"
+  - first:
+      213: 2226935291467115023
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_10"
+  - first:
+      213: 6271375926754712197
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_11"
+  - first:
+      213: 9003507120538706576
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_12"
+  - first:
+      213: 6578483128824564208
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_13"
+  - first:
+      213: 2804094818844113283
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_14"
+  - first:
+      213: 830995615701999760
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_15"
+  - first:
+      213: -4248294828726909020
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_16"
+  - first:
+      213: -7351428989747782564
+    second: "GI\xE1ng ch\xF9y \xE2m ph\u1EE7_17"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: QUY_DA_XOA_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 293
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7508f7fe8c9204101bf3011e417ed1e9
+      internalID: -810120086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1f69ba0bc649853cb975931dd55a6497
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":293.0,"y":35.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      QUY_DA_XOA_0: -810120086
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
