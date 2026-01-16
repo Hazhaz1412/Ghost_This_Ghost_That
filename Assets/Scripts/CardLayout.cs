@@ -5,11 +5,14 @@ using UnityEngine.UI;
 
 namespace Game
 {
-    [RequireComponent(typeof(Card))]
+    [RequireComponent(typeof(Card), typeof(Canvas))]
     public class CardLayout : MonoBehaviour
     {
-        [field: SerializeField]
-        public RectTransform LayoutObject { get; private set; }
+        [SerializeField]
+        private RectTransform _layoutObject;
+
+        [SerializeField]
+        private Vector2 _focusAnchor;
 
         [SerializeField]
         private ResourcesSO _resourcesData;
@@ -36,6 +39,7 @@ namespace Game
         private Image _spellImage;
 
         private Card _cardData;
+        private Canvas _cardCanvas;
 
         private int _uiCardMana;
         private int _uiGhostAttack;
@@ -44,6 +48,7 @@ namespace Game
         private void Awake()
         {
             _cardData = GetComponent<Card>();
+            _cardCanvas = GetComponent<Canvas>();
         }
 
         private void Start()
@@ -113,6 +118,20 @@ namespace Game
                 digitImg.transform.SetParent(parent, false);
                 digitImg.SetNativeSize();
 
+            }
+        }
+
+        public void SetFocus(bool on)
+        {
+            if (on)
+            {
+                _layoutObject.anchoredPosition = _focusAnchor;
+                _cardCanvas.overrideSorting = true;
+            }
+            else
+            {
+                _layoutObject.anchoredPosition = Vector2.zero;
+                _cardCanvas.overrideSorting = false;
             }
         }
     }

@@ -341,7 +341,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eeaab2e435f35d238a06fc234281425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Game::Game.Card
-  <LayoutObject>k__BackingField: {fileID: 4515217943916360233}
+  _layoutObject: {fileID: 4515217943916360233}
+  _focusAnchor: {x: 0, y: 100}
   _resourcesData: {fileID: 11400000, guid: 84ba67cba54b6715198655616d64e51d, type: 2}
   _ghostImage: {fileID: 1864048364406098832}
   _ghostTitleImage: {fileID: 1985806417222981816}

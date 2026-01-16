@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace Game
 {
+    [RequireComponent(typeof(CardLayout))]
     public class Card : MonoBehaviour
     {
         [SerializeField]

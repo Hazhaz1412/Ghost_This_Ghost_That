@@ -8,29 +8,30 @@ using UnityEngine.InputSystem;
 namespace Game
 {
     [RequireComponent(typeof(Player))]
-    public class PlayerSummonGhostInteraction : MonoBehaviour
+    public class PlayerBattleGhostInteraction : MonoBehaviour
     {
-        public event UnityAction<Card> OnGhostSummonRequest;
-
-        private InputAction _clickAction;
+        public event UnityAction<Ghost, Ghost> OnGhostBattleRequest;
 
         private Player _playerData;
 
+        private InputAction _clickAction;
+
         private void Awake()
         {
-            _clickAction = InputSystem.actions.FindAction("click");
             _playerData = GetComponent<Player>();
+            _clickAction = InputSystem.actions.FindAction("click");
         }
 
         private void Update()
         {
             switch (_playerData.State)
             {
-                case Player.PlayerState.SelectCard:
+                case Player.PlayerState.SelectGhost:
                     break;
                 default:
                     return;
             }
+
 
             if (_clickAction.WasPressedThisFrame())
             {
@@ -49,15 +50,17 @@ namespace Game
                 }
 
                 BaseRaycaster target = raycastResults[0].module;
+                bool isAllyGhost = target.CompareTag(tag);
 
-                if (target.gameObject.layer != LayerMask.NameToLayer(nameof(LayerMaskEnum.GhostZone)) || !target.CompareTag(tag))
+                if (target.gameObject.layer != LayerMask.NameToLayer(nameof(LayerMaskEnum.Ghost)) || isAllyGhost)
                 {
                     return;
                 }
 
-                OnGhostSummonRequest?.Invoke(_playerData.SelectedCard);
-            }
+                Ghost targetedGhost = target.GetComponent<Ghost>();
 
+                OnGhostBattleRequest?.Invoke(_playerData.SelectedGhost, targetedGhost);
+            }
         }
     }
 }

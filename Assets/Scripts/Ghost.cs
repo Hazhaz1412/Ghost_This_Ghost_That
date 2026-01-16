@@ -24,5 +24,13 @@ namespace Game
             GhostAttack = cardData.GhostAttack;
             GhostHealth = cardData.GhostHealth;
         }
+
+        private void Update()
+        {
+            if (GhostHealth <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
     }
 }

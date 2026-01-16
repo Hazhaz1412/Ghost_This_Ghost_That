@@ -1,4 +1,3 @@
-using Game.ScriptableObjects;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,6 +9,15 @@ namespace Game
     {
         [SerializeField]
         private ResourcesSO _resourcesData;
+
+        [SerializeField]
+        private GameObject _selectedHighlight;
+
+        [SerializeField]
+        private GameObject _allyHighlight;
+
+        [SerializeField]
+        private GameObject _enemyHighlight;
 
         [SerializeField]
         private Animator _ghostAnim;
@@ -55,6 +63,31 @@ namespace Game
                 _uiHealthNumber = _ghostData.GhostHealth;
                 _txtHealthNumber.SetText(_uiHealthNumber.ToString());
             }
+        }
+
+        public void HighlightSelected()
+        {
+            ResetHighlight();
+            _selectedHighlight.SetActive(true);
+        }
+
+        public void HighlightEnemy()
+        {
+            ResetHighlight();
+            _enemyHighlight.SetActive(true);
+        }
+
+        public void HighlightAlly()
+        {
+            ResetHighlight();
+            _allyHighlight.SetActive(true);
+        }
+
+        public void ResetHighlight()
+        {
+            _selectedHighlight.SetActive(false);
+            _allyHighlight.SetActive(false);
+            _enemyHighlight.SetActive(false);
         }
     }
 }

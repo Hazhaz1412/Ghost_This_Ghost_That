@@ -8,20 +8,20 @@ using UnityEngine.InputSystem;
 namespace Game
 {
     [RequireComponent(typeof(Player))]
-    public class PlayerSelectCardInteraction : MonoBehaviour
+    public class PlayerSelectGhostInteraction : MonoBehaviour
     {
-        public event UnityAction<Card> OnCardSelectRequest;
-
-        private InputAction _clickAction;
+        public event UnityAction<Ghost> OnGhostSelectRequest;
 
         private Player _playerData;
 
-        private Card _selectedCard;
+        private InputAction _clickAction;
+
+        private Ghost _selectedGhost;
 
         private void Awake()
         {
-            _clickAction = InputSystem.actions.FindAction("Click");
             _playerData = GetComponent<Player>();
+            _clickAction = InputSystem.actions.FindAction("click");
         }
 
         private void Update()
@@ -29,7 +29,7 @@ namespace Game
             switch (_playerData.State)
             {
                 case Player.PlayerState.Idle:
-                case Player.PlayerState.SelectCard:
+                case Player.PlayerState.SelectGhost:
                     break;
                 default:
                     return;
@@ -53,55 +53,56 @@ namespace Game
 
                 BaseRaycaster target = raycastResults[0].module;
 
-                if (target.gameObject.layer != LayerMask.NameToLayer(nameof(LayerMaskEnum.Card)) || !target.CompareTag(tag))
+                if (target.gameObject.layer != LayerMask.NameToLayer(nameof(LayerMaskEnum.Ghost)) || !target.CompareTag(tag))
                 {
                     return;
                 }
 
-                Card targetedCard = target.GetComponent<Card>();
+                Ghost targetedGhost = target.GetComponent<Ghost>();
 
-                if (_selectedCard == targetedCard)
+                if (_selectedGhost == targetedGhost)
                 {
-                    _selectedCard = null;
+                    _selectedGhost = null;
                     _playerData.State = Player.PlayerState.Idle;
                 }
                 else
                 {
-                    _selectedCard = targetedCard;
-                    _playerData.State = Player.PlayerState.SelectCard;
+                    _selectedGhost = targetedGhost;
+                    _playerData.State = Player.PlayerState.SelectGhost;
                 }
             }
 
-            if (_playerData.SelectedCard == _selectedCard)
+            if (_playerData.SelectedGhost == _selectedGhost)
             {
                 return;
             }
 
-            if (_playerData.SelectedCard != null)
+            if (_playerData.SelectedGhost != null)
             {
-                if (_playerData.SelectedCard.TryGetComponent(out CardLayout cardLayout))
+                if (_playerData.SelectedGhost.TryGetComponent(out GhostLayout ghostLayout))
                 {
-                    cardLayout.SetFocus(false);
+                    ghostLayout.ResetHighlight();
                 }
             }
 
-            if (_selectedCard != null)
+            if (_selectedGhost != null)
             {
-                if (_selectedCard.TryGetComponent(out CardLayout cardLayout))
+                if (_selectedGhost.TryGetComponent(out GhostLayout ghostLayout))
                 {
-                    cardLayout.SetFocus(true);
+                    ghostLayout.HighlightSelected();
                 }
             }
 
-            _playerData.SelectedCard = _selectedCard;
-            OnCardSelectRequest?.Invoke(_selectedCard);
+            _playerData.SelectedGhost = _selectedGhost;
+            OnGhostSelectRequest?.Invoke(_selectedGhost);
         }
+
 
         public void ResetState()
         {
-            _selectedCard = null;
+            _selectedGhost = null;
             _playerData.State = Player.PlayerState.Idle;
-            OnCardSelectRequest?.Invoke(null);
+            OnGhostSelectRequest?.Invoke(null);
         }
     }
 }

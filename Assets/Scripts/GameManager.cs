@@ -25,15 +25,22 @@ namespace Game
         private Transform _player1GhostZone;
 
         [SerializeField]
+        private Transform _player2GhostZone;
+
+        [SerializeField]
         private Transform _player1Hand;
 
         [SerializeField]
         private Player _player1;
 
+        private HashSet<Ghost> _hasAttacked;
+
         private List<CardIndexEnum> _player1Deck;
 
         private void Awake()
         {
+            _hasAttacked = new();
+
             _player1Deck = new List<CardIndexEnum>
             {
                 CardIndexEnum.AM_BINH,
@@ -60,6 +67,8 @@ namespace Game
 
             _player1.GetComponent<PlayerSelectCardInteraction>().OnCardSelectRequest += OnPlayer1CardSelect;
             _player1.GetComponent<PlayerSummonGhostInteraction>().OnGhostSummonRequest += OnPlayer1GhostSummon;
+            _player1.GetComponent<PlayerSelectGhostInteraction>().OnGhostSelectRequest += OnPlayer1GhostSelect;
+            _player1.GetComponent<PlayerBattleGhostInteraction>().OnGhostBattleRequest += OnPlayer1GhostBattle;
         }
 
         private void Start()
@@ -67,7 +76,7 @@ namespace Game
             ShuffleDeck(_player1Deck);
             for (int i = 0; i < 5; i++)
             {
-                Draw(_player1Deck, _player1Hand);
+                Draw(_player1.tag, _player1Deck, _player1Hand);
             }
         }
 
@@ -91,16 +100,52 @@ namespace Game
             {
                 Ghost ghost = Instantiate(_ghostPrefab, _player1GhostZone);
                 ghost.CardId = card.CardId;
+                ghost.tag = _player1.tag;
+
                 Destroy(card.gameObject);
 
                 _player1.GetComponent<PlayerSelectCardInteraction>().ResetState();
             }
         }
 
-        private void Draw(List<CardIndexEnum> deck, Transform hand)
+        private void OnPlayer1GhostSelect(Ghost ghost)
+        {
+            if (ghost != null && !_hasAttacked.Contains(ghost))
+            {
+                foreach (Ghost g in _player2GhostZone.GetComponentsInChildren<Ghost>())
+                {
+                    if (g.TryGetComponent(out GhostLayout ghostLayout))
+                    {
+                        ghostLayout.HighlightEnemy();
+                    }
+                }
+            }
+            else
+            {
+                foreach (Ghost g in _player2GhostZone.GetComponentsInChildren<Ghost>())
+                {
+                    if (g.TryGetComponent(out GhostLayout ghostLayout))
+                    {
+                        ghostLayout.ResetHighlight();
+                    }
+                }
+            }
+        }
+
+        private void OnPlayer1GhostBattle(Ghost attacker, Ghost defender)
+        {
+            attacker.GhostHealth -= defender.GhostAttack;
+            defender.GhostHealth -= attacker.GhostAttack;
+
+            _hasAttacked.Add(attacker);
+            _player1.GetComponent<PlayerSelectGhostInteraction>().ResetState();
+        }
+
+        private void Draw(string playerTag, List<CardIndexEnum> deck, Transform hand)
         {
             Card card = Instantiate(_cardPrefab, hand);
             card.CardId = deck[0];
+            card.tag = playerTag;
             deck.RemoveAt(0);
         }
 
