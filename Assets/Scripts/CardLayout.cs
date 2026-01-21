@@ -12,6 +12,9 @@ namespace Game
         private RectTransform _layoutObject;
 
         [SerializeField]
+        private Image _darkenOverlay;
+
+        [SerializeField]
         private Vector2 _focusAnchor;
 
         [SerializeField]
@@ -57,30 +60,31 @@ namespace Game
 
             bool isGhost = cardData.CardType == CardTypeEnum.Ghost;
 
-            if (isGhost)
-            {
-                _ghostImage.sprite = _resourcesData.LoadGhostSprite<Sprite>(_cardData.CardId);
-                _ghostTitleImage.sprite = _resourcesData.LoadGhostTitle<Sprite>(_cardData.CardId); ;
-                _ghostDescriptionImage.sprite = _resourcesData.LoadGhostDescription<Sprite>(_cardData.CardId);
-                _ghostImage.SetNativeSize();
-                _ghostTitleImage.SetNativeSize();
-                _ghostDescriptionImage.SetNativeSize();
-                UpdateNumber(_ghostManaNumberContainer, _uiCardMana);
-                UpdateNumber(_ghostAttackNumberContainer, _uiGhostAttack);
-                UpdateNumber(_ghostHealthNumberContainer, _uiGhostHealth);
-            }
-            else
+            _ghostImage.transform.parent.gameObject.SetActive(isGhost);
+            _spellImage.gameObject.SetActive(!isGhost);
+
+            if (!isGhost)
             {
                 _spellImage.sprite = _resourcesData.LoadSpellSprite<Sprite>(_cardData.CardId);
                 _spellImage.SetNativeSize();
+                return;
             }
 
-            _ghostImage.transform.parent.gameObject.SetActive(isGhost);
-            _spellImage.gameObject.SetActive(!isGhost);
+            _ghostImage.sprite = _resourcesData.LoadGhostSprite<Sprite>(_cardData.CardId);
+            _ghostTitleImage.sprite = _resourcesData.LoadGhostTitle<Sprite>(_cardData.CardId); ;
+            _ghostDescriptionImage.sprite = _resourcesData.LoadGhostDescription<Sprite>(_cardData.CardId);
+            _ghostImage.SetNativeSize();
+            _ghostTitleImage.SetNativeSize();
+            _ghostDescriptionImage.SetNativeSize();
+            UpdateNumber(_ghostManaNumberContainer, _uiCardMana);
+            UpdateNumber(_ghostAttackNumberContainer, _uiGhostAttack);
+            UpdateNumber(_ghostHealthNumberContainer, _uiGhostHealth);
         }
 
         private void Update()
         {
+            _darkenOverlay.gameObject.SetActive(_cardData.Mulligan);
+
             if (_cardData.CardType == CardTypeEnum.Ghost)
             {
                 if (_uiCardMana != _cardData.CardMana)
@@ -127,12 +131,11 @@ namespace Game
             {
                 _layoutObject.anchoredPosition = _focusAnchor;
                 _cardCanvas.overrideSorting = true;
+                return;
             }
-            else
-            {
-                _layoutObject.anchoredPosition = Vector2.zero;
-                _cardCanvas.overrideSorting = false;
-            }
+
+            _layoutObject.anchoredPosition = Vector2.zero;
+            _cardCanvas.overrideSorting = false;
         }
     }
 }

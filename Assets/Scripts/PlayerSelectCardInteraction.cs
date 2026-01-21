@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using Game.Enums;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
@@ -10,8 +9,6 @@ namespace Game
     [RequireComponent(typeof(Player))]
     public class PlayerSelectCardInteraction : MonoBehaviour
     {
-        public event UnityAction<Card> OnCardSelectRequest;
-
         private InputAction _clickAction;
 
         private Player _playerData;
@@ -60,16 +57,8 @@ namespace Game
 
                 Card targetedCard = target.GetComponent<Card>();
 
-                if (_selectedCard == targetedCard)
-                {
-                    _selectedCard = null;
-                    _playerData.State = Player.PlayerState.Idle;
-                }
-                else
-                {
-                    _selectedCard = targetedCard;
-                    _playerData.State = Player.PlayerState.SelectCard;
-                }
+                _selectedCard = _selectedCard == targetedCard ? null : targetedCard;
+                _playerData.State = _selectedCard == null ? Player.PlayerState.Idle : Player.PlayerState.SelectCard;
             }
 
             if (_playerData.SelectedCard == _selectedCard)
@@ -94,14 +83,12 @@ namespace Game
             }
 
             _playerData.SelectedCard = _selectedCard;
-            OnCardSelectRequest?.Invoke(_selectedCard);
         }
 
         public void ResetState()
         {
             _selectedCard = null;
             _playerData.State = Player.PlayerState.Idle;
-            OnCardSelectRequest?.Invoke(null);
         }
     }
 }

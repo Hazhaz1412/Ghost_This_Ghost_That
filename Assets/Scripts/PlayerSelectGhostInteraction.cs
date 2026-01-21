@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using Game.Enums;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
@@ -10,8 +9,6 @@ namespace Game
     [RequireComponent(typeof(Player))]
     public class PlayerSelectGhostInteraction : MonoBehaviour
     {
-        public event UnityAction<Ghost> OnGhostSelectRequest;
-
         private Player _playerData;
 
         private InputAction _clickAction;
@@ -60,16 +57,8 @@ namespace Game
 
                 Ghost targetedGhost = target.GetComponent<Ghost>();
 
-                if (_selectedGhost == targetedGhost)
-                {
-                    _selectedGhost = null;
-                    _playerData.State = Player.PlayerState.Idle;
-                }
-                else
-                {
-                    _selectedGhost = targetedGhost;
-                    _playerData.State = Player.PlayerState.SelectGhost;
-                }
+                _selectedGhost = _selectedGhost == targetedGhost ? null : targetedGhost;
+                _playerData.State = _selectedGhost == null ? Player.PlayerState.Idle : Player.PlayerState.SelectGhost;
             }
 
             if (_playerData.SelectedGhost == _selectedGhost)
@@ -94,7 +83,6 @@ namespace Game
             }
 
             _playerData.SelectedGhost = _selectedGhost;
-            OnGhostSelectRequest?.Invoke(_selectedGhost);
         }
 
 
@@ -102,7 +90,6 @@ namespace Game
         {
             _selectedGhost = null;
             _playerData.State = Player.PlayerState.Idle;
-            OnGhostSelectRequest?.Invoke(null);
         }
     }
 }

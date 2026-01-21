@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using Game.Enums;
-using Game.Structs;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
@@ -9,9 +8,9 @@ using UnityEngine.InputSystem;
 namespace Game
 {
     [RequireComponent(typeof(Player))]
-    public class PlayerBattleGhostInteraction : MonoBehaviour
+    public class PlayerMulliganCardInteraction : MonoBehaviour
     {
-        public event UnityAction<BattleDefender, BattleDefender> OnGhostBattleRequest;
+        public event UnityAction<Card> OnMulliganCardRequest;
 
         private Player _playerData;
 
@@ -27,7 +26,7 @@ namespace Game
         {
             switch (_playerData.State)
             {
-                case Player.PlayerState.SelectGhost:
+                case Player.PlayerState.Idle:
                     break;
                 default:
                     return;
@@ -51,19 +50,15 @@ namespace Game
                 }
 
                 BaseRaycaster target = raycastResults[0].module;
-                bool isAlly = target.CompareTag(tag);
 
-                if ((target.gameObject.layer != LayerMask.NameToLayer(nameof(LayerMaskEnum.Ghost)) &&
-                        target.gameObject.layer != LayerMask.NameToLayer(nameof(LayerMaskEnum.PlayerTarget))) || isAlly)
+                if (target.gameObject.layer != LayerMask.NameToLayer(nameof(LayerMaskEnum.MulliganCard)) || !target.CompareTag(tag))
                 {
                     return;
                 }
 
-                BattleDefender attacker = new(_playerData.SelectedGhost);
-                BattleDefender defender = new(target.gameObject);
-
-                OnGhostBattleRequest?.Invoke(attacker, defender);
+                OnMulliganCardRequest?.Invoke(target.GetComponent<Card>());
             }
+
         }
     }
 }

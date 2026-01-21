@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Game
 {
-    [RequireComponent(typeof(GhostLayout))]
+    // [RequireComponent(typeof(GhostLayout))]
     public class Ghost : MonoBehaviour
     {
         [SerializeField]

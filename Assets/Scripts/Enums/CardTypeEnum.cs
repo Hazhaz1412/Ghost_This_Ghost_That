@@ -5,6 +5,6 @@ namespace Game.Enums
         Ghost,
         SlowSpell,
         FastSpell,
-        ImmediateSpell,
+        BurstSpell,
     }
 }

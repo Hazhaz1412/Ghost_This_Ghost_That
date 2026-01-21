@@ -4,11 +4,14 @@ using UnityEngine;
 
 namespace Game
 {
-    [RequireComponent(typeof(CardLayout))]
+    // [RequireComponent(typeof(CardLayout))]
     public class Card : MonoBehaviour
     {
         [SerializeField]
         private ResourcesSO _resourcesData;
+
+        [HideInInspector]
+        public bool Mulligan;
 
         public CardIndexEnum CardId;
 
@@ -17,10 +20,8 @@ namespace Game
         [HideInInspector]
         public int CardMana;
 
-        [HideInInspector]
         public int GhostAttack { get; private set; }
 
-        [HideInInspector]
         public int GhostHealth { get; private set; }
 
         private void Start()
