@@ -2,7 +2,6 @@ namespace Game.Enums
 {
     public enum CardIndexEnum
     {
-        // Ghost
         AM_BINH,
         LINH_MIEU,
         MA_CANG_SUNG,
@@ -24,7 +23,6 @@ namespace Game.Enums
         THIEN_LINH_CAI,
         VONG_NHI,
 
-        // Spell
         BA_NEN_NHAN,
         GO_CHEN_HON_VE,
         HIEN_XAC_TRA_THU,
@@ -35,5 +33,7 @@ namespace Game.Enums
         QUAN_TAI_HIEN_TE,
         TOI_YEM_BUA,
         VONG_HO_MENH,
+
+        INVALID,
     }
 }

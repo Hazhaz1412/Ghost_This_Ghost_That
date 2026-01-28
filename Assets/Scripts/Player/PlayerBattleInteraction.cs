@@ -1,25 +1,23 @@
 using System.Collections.Generic;
 using Game.Enums;
+using Game.Interactions;
 using Game.Structs;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
-namespace Game
+namespace Game.Player
 {
-    [RequireComponent(typeof(Player))]
-    public class PlayerBattleGhostInteraction : MonoBehaviour
+    [RequireComponent(typeof(GamePlayer))]
+    public class PlayerBattleInteraction : BattleInteraction
     {
-        public event UnityAction<BattleDefender, BattleDefender> OnGhostBattleRequest;
-
-        private Player _playerData;
+        private GamePlayer _playerData;
 
         private InputAction _clickAction;
 
         private void Awake()
         {
-            _playerData = GetComponent<Player>();
+            _playerData = GetComponent<GamePlayer>();
             _clickAction = InputSystem.actions.FindAction("click");
         }
 
@@ -27,7 +25,15 @@ namespace Game
         {
             switch (_playerData.State)
             {
-                case Player.PlayerState.SelectGhost:
+                case GamePlayer.PlayerState.SelectGhost:
+                    break;
+                default:
+                    return;
+            }
+
+            switch (_playerData.GameState)
+            {
+                case GamePlayer.PlayerGameState.PlayerAttack:
                     break;
                 default:
                     return;
@@ -59,10 +65,10 @@ namespace Game
                     return;
                 }
 
-                BattleDefender attacker = new(_playerData.SelectedGhost);
-                BattleDefender defender = new(target.gameObject);
+                Battler attacker = new(_playerData.SelectedGhost);
+                Battler defender = new(target.gameObject);
 
-                OnGhostBattleRequest?.Invoke(attacker, defender);
+                DispatchBattleRequest(attacker, defender);
             }
         }
     }

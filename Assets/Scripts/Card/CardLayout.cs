@@ -3,9 +3,9 @@ using Game.ScriptableObjects;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Game
+namespace Game.Card
 {
-    [RequireComponent(typeof(Card), typeof(Canvas))]
+    [RequireComponent(typeof(GameCard), typeof(Canvas))]
     public class CardLayout : MonoBehaviour
     {
         [SerializeField]
@@ -41,7 +41,7 @@ namespace Game
         [SerializeField]
         private Image _spellImage;
 
-        private Card _cardData;
+        private GameCard _cardData;
         private Canvas _cardCanvas;
 
         private int _uiCardMana;
@@ -50,7 +50,7 @@ namespace Game
 
         private void Awake()
         {
-            _cardData = GetComponent<Card>();
+            _cardData = GetComponent<GameCard>();
             _cardCanvas = GetComponent<Canvas>();
         }
 

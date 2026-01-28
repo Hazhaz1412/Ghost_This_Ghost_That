@@ -1,11 +1,11 @@
 using UnityEngine;
 
-namespace Game
+namespace Game.Player
 {
     public class PlayerAttackTarget : MonoBehaviour
     {
         [SerializeField]
-        private Player _player;
+        private GamePlayer _player;
 
         public void ReducePlayerHealth(int damage)
         {

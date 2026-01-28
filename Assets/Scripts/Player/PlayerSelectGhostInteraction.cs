@@ -1,23 +1,24 @@
 using System.Collections.Generic;
 using Game.Enums;
+using Game.Ghost;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
-namespace Game
+namespace Game.Player
 {
-    [RequireComponent(typeof(Player))]
+    [RequireComponent(typeof(GamePlayer))]
     public class PlayerSelectGhostInteraction : MonoBehaviour
     {
-        private Player _playerData;
+        private GamePlayer _playerData;
 
         private InputAction _clickAction;
 
-        private Ghost _selectedGhost;
+        private GameGhost _selectedGhost;
 
         private void Awake()
         {
-            _playerData = GetComponent<Player>();
+            _playerData = GetComponent<GamePlayer>();
             _clickAction = InputSystem.actions.FindAction("click");
         }
 
@@ -25,8 +26,18 @@ namespace Game
         {
             switch (_playerData.State)
             {
-                case Player.PlayerState.Idle:
-                case Player.PlayerState.SelectGhost:
+                case GamePlayer.PlayerState.Idle:
+                case GamePlayer.PlayerState.SelectGhost:
+                    break;
+                default:
+                    return;
+            }
+
+            switch (_playerData.GameState)
+            {
+                case GamePlayer.PlayerGameState.PlayerIdle:
+                case GamePlayer.PlayerGameState.PlayerPlay:
+                case GamePlayer.PlayerGameState.PlayerAttack:
                     break;
                 default:
                     return;
@@ -55,10 +66,10 @@ namespace Game
                     return;
                 }
 
-                Ghost targetedGhost = target.GetComponent<Ghost>();
+                GameGhost targetedGhost = target.GetComponent<GameGhost>();
 
                 _selectedGhost = _selectedGhost == targetedGhost ? null : targetedGhost;
-                _playerData.State = _selectedGhost == null ? Player.PlayerState.Idle : Player.PlayerState.SelectGhost;
+                _playerData.State = _selectedGhost == null ? GamePlayer.PlayerState.Idle : GamePlayer.PlayerState.SelectGhost;
             }
 
             if (_playerData.SelectedGhost == _selectedGhost)
@@ -89,7 +100,7 @@ namespace Game
         public void ResetState()
         {
             _selectedGhost = null;
-            _playerData.State = Player.PlayerState.Idle;
+            _playerData.State = GamePlayer.PlayerState.Idle;
         }
     }
 }

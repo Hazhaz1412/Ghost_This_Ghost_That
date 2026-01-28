@@ -6,7 +6,6 @@ namespace Game.Enums
         Ghost,
         GhostZone,
         SpellZone,
-        MulliganCard,
         PlayerTarget,
     }
 }

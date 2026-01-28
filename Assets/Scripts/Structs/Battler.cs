@@ -1,8 +1,10 @@
+using Game.Ghost;
+using Game.Player;
 using UnityEngine;
 
 namespace Game.Structs
 {
-    public class BattleDefender
+    public class Battler
     {
         private enum DefenderType
         {
@@ -10,20 +12,31 @@ namespace Game.Structs
             Player,
         }
 
+        public string Tag { get; private set; }
+
         private readonly DefenderType _type;
-        private readonly Ghost _ghost;
+        private readonly GameGhost _ghost;
         private readonly PlayerAttackTarget _player;
 
-        public BattleDefender(Ghost ghost)
+        public Battler(GameGhost ghost)
         {
             _type = DefenderType.Ghost;
             _ghost = ghost;
             _player = null;
+            Tag = _ghost.tag;
         }
 
-        public BattleDefender(GameObject go)
+        public Battler(PlayerAttackTarget player)
         {
-            if (go.TryGetComponent(out Ghost ghost))
+            _type = DefenderType.Player;
+            _ghost = null;
+            _player = player;
+            Tag = _player.tag;
+        }
+
+        public Battler(GameObject go)
+        {
+            if (go.TryGetComponent(out GameGhost ghost))
             {
                 _type = DefenderType.Ghost;
                 _ghost = ghost;
@@ -35,9 +48,18 @@ namespace Game.Structs
                 _ghost = null;
                 _player = player;
             }
+
+            if (_ghost != null)
+            {
+                Tag = _ghost.tag;
+            }
+            else if (_player != null)
+            {
+                Tag = _player.tag;
+            }
         }
 
-        public void TakeDamage(BattleDefender attacker)
+        private void TakeDamage(Battler attacker)
         {
             int damage = 0;
 
@@ -47,6 +69,9 @@ namespace Game.Structs
                     {
                         damage = attacker._ghost.GhostAttack;
                     }
+                    break;
+                case DefenderType.Player:
+                default:
                     break;
             }
 
@@ -62,27 +87,15 @@ namespace Game.Structs
                         _player.ReducePlayerHealth(damage);
                     }
                     break;
+                default:
+                    break;
             }
         }
 
-        public void DealDamage(BattleDefender target)
+        public void Battle(Battler defender)
         {
-            switch (target._type)
-            {
-                case DefenderType.Ghost:
-                    break;
-                default:
-                    return;
-            }
-
-            switch (_type)
-            {
-                case DefenderType.Ghost:
-                    {
-                        target._ghost.GhostHealth -= _ghost.GhostAttack;
-                    }
-                    break;
-            }
+            TakeDamage(defender);
+            defender.TakeDamage(this);
         }
     }
 }

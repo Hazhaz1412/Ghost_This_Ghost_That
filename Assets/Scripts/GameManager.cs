@@ -1,4 +1,9 @@
+using Game.Card;
 using Game.Enums;
+using Game.Ghost;
+using Game.Interactions;
+using Game.Interfaces;
+using Game.Player;
 using Game.Structs;
 using UnityEngine;
 
@@ -11,11 +16,10 @@ namespace Game
             GameStart,
             Mulligan,
             WaitForMulligan,
-            DrawPhase,
-            Player1Play,
-            Player2Play,
-            Player1Attack,
-            Player2Attack,
+            PlayerTurnStart,
+            AttackPlayerPlay,
+            DefendPlayerPlay,
+            PlayerAttack,
         }
 
         private const int MulliganAmount = 4;
@@ -27,10 +31,10 @@ namespace Game
         private const int StartingMana = 1;
 
         [SerializeField]
-        private Card _cardPrefab;
+        private GameCard _cardPrefab;
 
         [SerializeField]
-        private Ghost _ghostPrefab;
+        private GameGhost _ghostPrefab;
 
         [SerializeField]
         private GameObject _spellZoneHl;
@@ -42,66 +46,99 @@ namespace Game
         private Transform _mulliganZone;
 
         [SerializeField]
-        private Player _player1;
+        private GamePlayer _player1;
 
         [SerializeField]
-        private Player _player2;
+        private GamePlayer _player2;
 
+        [SerializeField] // NOTE: temporary
         private GameState _state;
-
-        private bool _player1FinishMulligan;
 
         private void Awake()
         {
+            _player1.IsAttackTurn = true;
+            _player2.IsAttackTurn = false;
+
             _player1.Hp = StartingHp;
             _player1.Mana = StartingMana;
-            _player1.GetComponent<PlayerSummonGhostInteraction>().OnGhostSummonRequest += OnPlayer1GhostSummon;
-            _player1.GetComponent<PlayerBattleGhostInteraction>().OnGhostBattleRequest += OnPlayer1GhostBattle;
+            _player1.GetComponent<SummonGhostInteraction>().AddSummonGhostRequestListener((card) => OnPlayerGhostSummon(_player1, card));
+            _player1.GetComponent<BattleInteraction>().AddBattleRequestListener((attacker, defender) => OnPlayerBattle(attacker, defender, _player1));
+            _player1.GetComponent<ConfirmInteraction>().AddConfirmRequestListener(() => OnPlayerConfirm(_player1));
             _player1.GetComponent<PlayerMulliganCardInteraction>().OnMulliganCardRequest += OnPlayer1MulliganCard;
-            _player1.GetComponent<PlayerConfirmInteraction>().OnConfirmRequest += OnPlayer1Confirm;
 
             _player2.Hp = StartingHp;
             _player2.Mana = StartingMana;
+            _player2.GetComponent<SummonGhostInteraction>().AddSummonGhostRequestListener((card) => OnPlayerGhostSummon(_player2, card));
+            _player2.GetComponent<BattleInteraction>().AddBattleRequestListener((attacker, defender) => OnPlayerBattle(attacker, defender, _player2));
+            _player2.GetComponent<ConfirmInteraction>().AddConfirmRequestListener(() => OnPlayerConfirm(_player2));
         }
 
         private void Update()
         {
+            HandlePlayerGameState();
+            HandlePlayerSelectGhost(_player1);
+
             HandlePlayer1SelectCard();
-            HandlePlayer1SelectGhost();
 
             switch (_state)
             {
                 case GameState.GameStart:
                     {
                         _state = GameState.Mulligan;
+                        _player1.ShuffleDeck();
+                        _player2.ShuffleDeck();
                     }
                     break;
                 case GameState.Mulligan:
                     {
-                        ShuffleDeck(_player1);
                         for (int i = 0; i < MulliganAmount; i++)
                         {
-                            AddCardToMulligan(_player1);
+                            _player1.GetComponent<IMulliganSetup>().AddCardToMulliganZone();
+                            _player2.GetComponent<IMulliganSetup>().AddCardToMulliganZone();
                         }
                         _state = GameState.WaitForMulligan;
                     }
                     break;
-                case GameState.DrawPhase:
-                    {
-                        Draw(_player1);
-                        _state = GameState.Player1Play;
-                    }
-                    break;
                 case GameState.WaitForMulligan:
-                    if (_player1FinishMulligan)
                     {
-                        _state = GameState.Player1Play;
+                        if (_player1.GameState == GamePlayer.PlayerGameState.PlayerFinishedMulligan &&
+                                _player2.GameState == GamePlayer.PlayerGameState.PlayerFinishedMulligan)
+                        {
+                            _state = GameState.AttackPlayerPlay;
+
+                            for (int i = 0; i < StartingHandAmount; i++)
+                            {
+                                if (_player1.TryGetComponent(out IDrawer drawer1))
+                                {
+                                    drawer1.Draw();
+                                }
+                                if (_player2.TryGetComponent(out IDrawer drawer2))
+                                {
+                                    drawer2.Draw();
+                                }
+                            }
+                        }
                     }
                     break;
-                case GameState.Player1Play:
-                case GameState.Player1Attack:
-                case GameState.Player2Play:
-                case GameState.Player2Attack:
+                case GameState.PlayerTurnStart:
+                    {
+                        _player1.Mana++;
+                        _player2.Mana++;
+
+                        if (_player1.TryGetComponent(out IDrawer drawer))
+                        {
+                            drawer.Draw();
+                        }
+                        if (_player2.TryGetComponent(out IDrawer drawer2))
+                        {
+                            drawer2.Draw();
+                        }
+
+                        _state = GameState.AttackPlayerPlay;
+                    }
+                    break;
+                case GameState.AttackPlayerPlay:
+                case GameState.PlayerAttack:
                 default:
                     break;
             }
@@ -109,7 +146,7 @@ namespace Game
 
         private void HandlePlayer1SelectCard()
         {
-            Card card = _player1.SelectedCard;
+            GameCard card = _player1.SelectedCard;
 
             if (card == null)
             {
@@ -118,22 +155,22 @@ namespace Game
                 return;
             }
 
-            if (_state == GameState.Player1Play)
+            if (_player1.GameState == GamePlayer.PlayerGameState.PlayerPlay)
             {
                 _player1.InteractGhostZone.SetActive(card.CardType == CardTypeEnum.Ghost);
                 _spellZoneHl.SetActive(card.CardType != CardTypeEnum.Ghost);
             }
         }
 
-        private void HandlePlayer1SelectGhost()
+        private void HandlePlayerSelectGhost(GamePlayer player)
         {
-            Ghost ghost = _player1.SelectedGhost;
+            GameGhost ghost = player.SelectedGhost;
 
-            if (ghost == null)
+            if (ghost == null || player.GameState != GamePlayer.PlayerGameState.PlayerAttack)
             {
-                _player2.AttackTarget.gameObject.SetActive(false);
+                player.Enemy.AttackTarget.gameObject.SetActive(false);
 
-                foreach (Ghost g in _player2.SummonGhostZone.GetComponentsInChildren<Ghost>())
+                foreach (GameGhost g in player.Enemy.SummonGhostZone.GetComponentsInChildren<GameGhost>())
                 {
                     if (g.TryGetComponent(out GhostLayout ghostLayout))
                     {
@@ -143,25 +180,23 @@ namespace Game
                 return;
             }
 
-            if (_state != GameState.Player1Attack)
+            if (player.GameState == GamePlayer.PlayerGameState.PlayerAttack)
             {
-                return;
-            }
+                player.Enemy.AttackTarget.gameObject.SetActive(true);
 
-            _player2.AttackTarget.gameObject.SetActive(true);
-
-            foreach (Ghost g in _player2.SummonGhostZone.GetComponentsInChildren<Ghost>())
-            {
-                if (g.TryGetComponent(out GhostLayout ghostLayout))
+                foreach (GameGhost g in player.Enemy.SummonGhostZone.GetComponentsInChildren<GameGhost>())
                 {
-                    ghostLayout.HighlightEnemy();
+                    if (g.TryGetComponent(out GhostLayout ghostLayout))
+                    {
+                        ghostLayout.HighlightEnemy();
+                    }
                 }
             }
         }
 
-        private void OnPlayer1GhostSummon(Card card)
+        private void OnPlayerGhostSummon(GamePlayer player, GameCard card)
         {
-            if (_state != GameState.Player1Play)
+            if (player.GameState != GamePlayer.PlayerGameState.PlayerPlay)
             {
                 return;
             }
@@ -176,29 +211,39 @@ namespace Game
                 return;
             }
 
-            Ghost ghost = Instantiate(_ghostPrefab, _player1.SummonGhostZone);
+            GameGhost ghost = Instantiate(_ghostPrefab, player.SummonGhostZone);
             ghost.CardId = card.CardId;
-            ghost.tag = _player1.tag;
+            ghost.tag = player.tag;
 
             Destroy(card.gameObject);
 
-            _player1.GetComponent<PlayerSelectCardInteraction>().ResetState();
+            if (player.TryGetComponent(out PlayerSelectCardInteraction selectCardInteraction))
+            {
+                selectCardInteraction.ResetState();
+            }
         }
 
-        private void OnPlayer1GhostBattle(BattleDefender attacker, BattleDefender defender)
+        private void OnPlayerBattle(Battler attacker, Battler defender, GamePlayer player)
         {
-            if (_state != GameState.Player1Attack)
+            if (player.GameState != GamePlayer.PlayerGameState.PlayerAttack)
             {
                 return;
             }
 
-            attacker.DealDamage(defender);
-            defender.TakeDamage(attacker);
+            if (!player.CompareTag(attacker.Tag))
+            {
+                return;
+            }
 
-            _player1.GetComponent<PlayerSelectGhostInteraction>().ResetState();
+            attacker.Battle(defender);
+
+            if (player.TryGetComponent(out PlayerSelectGhostInteraction selectGhostInteraction))
+            {
+                selectGhostInteraction.ResetState();
+            }
         }
 
-        private void OnPlayer1MulliganCard(Card card)
+        private void OnPlayer1MulliganCard(GameCard card)
         {
             if (card == null)
             {
@@ -208,78 +253,104 @@ namespace Game
             card.Mulligan = !card.Mulligan;
         }
 
-        private void OnPlayer1Confirm()
+        private void OnPlayerConfirm(GamePlayer player)
         {
             switch (_state)
             {
                 case GameState.WaitForMulligan:
                     {
-                        foreach (Card c in _mulliganZone.GetComponentsInChildren<Card>())
+                        if (player.GameState != GamePlayer.PlayerGameState.PlayerFinishedMulligan)
                         {
-                            if (!c.Mulligan)
-                            {
-                                Card card = Instantiate(_cardPrefab, _player1.Hand);
-                                card.CardId = c.CardId;
-                                card.tag = _player1.tag;
-                                c.gameObject.SetActive(false);
-                                Destroy(c.gameObject);
-                            }
+                            player.GetComponent<IMulliganSetup>().FinishMulligan();
+                            player.GameState = GamePlayer.PlayerGameState.PlayerFinishedMulligan;
                         }
-
-                        for (int i = _player1.Hand.childCount; i < StartingHandAmount; i++)
-                        {
-                            Draw(_player1);
-                        }
-
-                        foreach (Card c in _mulliganZone.GetComponentsInChildren<Card>())
-                        {
-                            _player1.Deck.Add(c.CardId);
-                            Destroy(c.gameObject);
-                        }
-
-                        ShuffleDeck(_player1);
-                        _player1FinishMulligan = true;
                     }
                     break;
-                case GameState.Player1Play:
+                case GameState.AttackPlayerPlay:
                     {
-                        _state = GameState.Player1Attack;
+                        _state = GameState.DefendPlayerPlay;
                     }
                     break;
-                case GameState.Player1Attack:
+                case GameState.DefendPlayerPlay:
                     {
-                        _state = GameState.DrawPhase;
+                        _state = GameState.PlayerAttack;
                     }
                     break;
+                case GameState.PlayerAttack:
+                    {
+                        _state = GameState.PlayerTurnStart;
+                    }
+                    break;
+                case GameState.GameStart:
+                case GameState.Mulligan:
+                case GameState.PlayerTurnStart:
                 default:
                     break;
             }
         }
 
-        private void AddCardToMulligan(Player player)
+        private void HandlePlayerGameState()
         {
-            Card card = Instantiate(_cardPrefab, _mulliganZone);
-            card.CardId = player.Deck[0];
-            card.tag = player.tag;
-            card.gameObject.layer = LayerMask.NameToLayer(nameof(LayerMaskEnum.MulliganCard));
-            player.Deck.RemoveAt(0);
-        }
-
-        private void Draw(Player player)
-        {
-            Card card = Instantiate(_cardPrefab, player.Hand);
-            card.CardId = player.Deck[0];
-            card.tag = player.tag;
-            player.Deck.RemoveAt(0);
-        }
-
-        private void ShuffleDeck(Player player)
-        {
-            for (int i = 0; i < player.Deck.Count; i++)
+            switch (_state)
             {
-                int swapIdx = Random.Range(0, player.Deck.Count - 1);
-                (player.Deck[i], player.Deck[swapIdx]) =
-                    (player.Deck[swapIdx], player.Deck[i]);
+                case GameState.PlayerTurnStart:
+                    {
+                        (_player1.IsAttackTurn, _player2.IsAttackTurn) =
+                            (_player2.IsAttackTurn, _player1.IsAttackTurn);
+                    }
+                    break;
+                case GameState.Mulligan:
+                    {
+                        _player1.GameState = GamePlayer.PlayerGameState.PlayerMulligan;
+                        _player2.GameState = GamePlayer.PlayerGameState.PlayerMulligan;
+                    }
+                    break;
+                case GameState.AttackPlayerPlay:
+                    {
+                        if (_player1.IsAttackTurn)
+                        {
+                            _player1.GameState = GamePlayer.PlayerGameState.PlayerPlay;
+                            _player2.GameState = GamePlayer.PlayerGameState.PlayerIdle;
+                        }
+                        else if (_player2.IsAttackTurn)
+                        {
+                            _player1.GameState = GamePlayer.PlayerGameState.PlayerIdle;
+                            _player2.GameState = GamePlayer.PlayerGameState.PlayerPlay;
+                        }
+                    }
+                    break;
+                case GameState.DefendPlayerPlay:
+                    {
+                        if (_player1.IsAttackTurn)
+                        {
+                            _player1.GameState = GamePlayer.PlayerGameState.PlayerIdle;
+                            _player2.GameState = GamePlayer.PlayerGameState.PlayerPlay;
+                        }
+                        else if (_player2.IsAttackTurn)
+                        {
+                            _player1.GameState = GamePlayer.PlayerGameState.PlayerPlay;
+                            _player2.GameState = GamePlayer.PlayerGameState.PlayerIdle;
+                        }
+                    }
+                    break;
+                case GameState.PlayerAttack:
+                    {
+                        if (_player1.IsAttackTurn)
+                        {
+                            _player1.GameState = GamePlayer.PlayerGameState.PlayerAttack;
+                            _player2.GameState = GamePlayer.PlayerGameState.PlayerIdle;
+                        }
+                        else if (_player2.IsAttackTurn)
+                        {
+                            _player1.GameState = GamePlayer.PlayerGameState.PlayerIdle;
+                            _player2.GameState = GamePlayer.PlayerGameState.PlayerAttack;
+                        }
+                    }
+                    break;
+                case GameState.GameStart:
+                case GameState.WaitForMulligan:
+                default:
+                    break;
             }
         }
     }

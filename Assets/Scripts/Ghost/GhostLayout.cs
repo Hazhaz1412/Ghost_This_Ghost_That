@@ -2,9 +2,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Game
+namespace Game.Ghost
 {
-    [RequireComponent(typeof(Ghost))]
+    [RequireComponent(typeof(GameGhost))]
     public class GhostLayout : MonoBehaviour
     {
         [SerializeField]
@@ -28,14 +28,14 @@ namespace Game
         [SerializeField]
         private TMP_Text _txtHealthNumber;
 
-        private Ghost _ghostData;
+        private GameGhost _ghostData;
 
         private int _uiAttackNumber;
         private int _uiHealthNumber;
 
         private void Awake()
         {
-            _ghostData = GetComponent<Ghost>();
+            _ghostData = GetComponent<GameGhost>();
         }
 
         private void Start()

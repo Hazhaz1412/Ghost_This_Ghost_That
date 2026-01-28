@@ -1,32 +1,43 @@
 using System.Collections.Generic;
+using Game.Card;
 using Game.Enums;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
-namespace Game
+namespace Game.Player
 {
-    [RequireComponent(typeof(Player))]
+    [RequireComponent(typeof(GamePlayer))]
     public class PlayerSelectCardInteraction : MonoBehaviour
     {
         private InputAction _clickAction;
 
-        private Player _playerData;
+        private GamePlayer _playerData;
 
-        private Card _selectedCard;
+        private GameCard _selectedCard;
 
         private void Awake()
         {
             _clickAction = InputSystem.actions.FindAction("Click");
-            _playerData = GetComponent<Player>();
+            _playerData = GetComponent<GamePlayer>();
         }
 
         private void Update()
         {
             switch (_playerData.State)
             {
-                case Player.PlayerState.Idle:
-                case Player.PlayerState.SelectCard:
+                case GamePlayer.PlayerState.Idle:
+                case GamePlayer.PlayerState.SelectCard:
+                    break;
+                default:
+                    return;
+            }
+
+            switch (_playerData.GameState)
+            {
+                case GamePlayer.PlayerGameState.PlayerIdle:
+                case GamePlayer.PlayerGameState.PlayerPlay:
+                case GamePlayer.PlayerGameState.PlayerAttack:
                     break;
                 default:
                     return;
@@ -55,10 +66,10 @@ namespace Game
                     return;
                 }
 
-                Card targetedCard = target.GetComponent<Card>();
+                GameCard targetedCard = target.GetComponent<GameCard>();
 
                 _selectedCard = _selectedCard == targetedCard ? null : targetedCard;
-                _playerData.State = _selectedCard == null ? Player.PlayerState.Idle : Player.PlayerState.SelectCard;
+                _playerData.State = _selectedCard == null ? GamePlayer.PlayerState.Idle : GamePlayer.PlayerState.SelectCard;
             }
 
             if (_playerData.SelectedCard == _selectedCard)
@@ -88,7 +99,7 @@ namespace Game
         public void ResetState()
         {
             _selectedCard = null;
-            _playerData.State = Player.PlayerState.Idle;
+            _playerData.State = GamePlayer.PlayerState.Idle;
         }
     }
 }

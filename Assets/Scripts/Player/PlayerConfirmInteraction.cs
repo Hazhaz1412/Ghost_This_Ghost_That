@@ -1,14 +1,12 @@
+using Game.Interactions;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace Game
+namespace Game.Player
 {
-    [RequireComponent(typeof(Player))]
-    public class PlayerConfirmInteraction : MonoBehaviour
+    [RequireComponent(typeof(GamePlayer))]
+    public class PlayerConfirmInteraction : ConfirmInteraction
     {
-        public event UnityAction OnConfirmRequest;
-
         [SerializeField]
         private Button _confirmButton;
 
@@ -19,7 +17,7 @@ namespace Game
 
         private void OnConfirmButtonClicked()
         {
-            OnConfirmRequest?.Invoke();
+            DispatchConfirmRequest();
         }
     }
 }

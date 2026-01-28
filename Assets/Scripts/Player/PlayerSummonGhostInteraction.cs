@@ -1,32 +1,29 @@
 using System.Collections.Generic;
 using Game.Enums;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
-namespace Game
+namespace Game.Player
 {
-    [RequireComponent(typeof(Player))]
-    public class PlayerSummonGhostInteraction : MonoBehaviour
+    [RequireComponent(typeof(GamePlayer))]
+    public class PlayerSummonGhostInteraction : SummonGhostInteraction
     {
-        public event UnityAction<Card> OnGhostSummonRequest;
-
         private InputAction _clickAction;
 
-        private Player _playerData;
+        private GamePlayer _playerData;
 
         private void Awake()
         {
             _clickAction = InputSystem.actions.FindAction("click");
-            _playerData = GetComponent<Player>();
+            _playerData = GetComponent<GamePlayer>();
         }
 
         private void Update()
         {
             switch (_playerData.State)
             {
-                case Player.PlayerState.SelectCard:
+                case GamePlayer.PlayerState.SelectCard:
                     break;
                 default:
                     return;
@@ -55,7 +52,7 @@ namespace Game
                     return;
                 }
 
-                OnGhostSummonRequest?.Invoke(_playerData.SelectedCard);
+                DispatchSummonGhostRequest(_playerData.SelectedCard);
             }
 
         }

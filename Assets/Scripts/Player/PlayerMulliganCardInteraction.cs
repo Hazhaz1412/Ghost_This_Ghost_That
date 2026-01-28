@@ -1,24 +1,25 @@
 using System.Collections.Generic;
+using Game.Card;
 using Game.Enums;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
-namespace Game
+namespace Game.Player
 {
-    [RequireComponent(typeof(Player))]
+    [RequireComponent(typeof(GamePlayer))]
     public class PlayerMulliganCardInteraction : MonoBehaviour
     {
-        public event UnityAction<Card> OnMulliganCardRequest;
+        public event UnityAction<GameCard> OnMulliganCardRequest;
 
-        private Player _playerData;
+        private GamePlayer _playerData;
 
         private InputAction _clickAction;
 
         private void Awake()
         {
-            _playerData = GetComponent<Player>();
+            _playerData = GetComponent<GamePlayer>();
             _clickAction = InputSystem.actions.FindAction("click");
         }
 
@@ -26,7 +27,15 @@ namespace Game
         {
             switch (_playerData.State)
             {
-                case Player.PlayerState.Idle:
+                case GamePlayer.PlayerState.Idle:
+                    break;
+                default:
+                    return;
+            }
+
+            switch (_playerData.GameState)
+            {
+                case GamePlayer.PlayerGameState.PlayerMulligan:
                     break;
                 default:
                     return;
@@ -51,12 +60,12 @@ namespace Game
 
                 BaseRaycaster target = raycastResults[0].module;
 
-                if (target.gameObject.layer != LayerMask.NameToLayer(nameof(LayerMaskEnum.MulliganCard)) || !target.CompareTag(tag))
+                if (target.gameObject.layer != LayerMask.NameToLayer(nameof(LayerMaskEnum.Card)) || !target.CompareTag(tag))
                 {
                     return;
                 }
 
-                OnMulliganCardRequest?.Invoke(target.GetComponent<Card>());
+                OnMulliganCardRequest?.Invoke(target.GetComponent<GameCard>());
             }
 
         }
