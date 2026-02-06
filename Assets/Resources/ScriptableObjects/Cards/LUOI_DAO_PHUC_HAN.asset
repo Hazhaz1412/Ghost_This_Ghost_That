@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: LUOI_DAO_PHUC_HAN
   m_EditorClassIdentifier: Game::Game.ScriptableObjects.CardSO
   <CardType>k__BackingField: 2
-  <CardCost>k__BackingField: 0
+  <CardCost>k__BackingField: 3
   <GhostAttack>k__BackingField: 0
   <GhostHealth>k__BackingField: 0

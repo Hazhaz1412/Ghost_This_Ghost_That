@@ -17,6 +17,13 @@ namespace Game.Ghost
         [HideInInspector]
         public int GhostHealth;
 
+        public bool IsAlive { get; private set; }
+
+        private void Awake()
+        {
+            IsAlive = true;
+        }
+
         private void Start()
         {
             CardSO cardData = _resourcesData.LoadCardData<CardSO>(CardId);
@@ -26,9 +33,14 @@ namespace Game.Ghost
 
         private void Update()
         {
+            if (!IsAlive)
+            {
+                return;
+            }
+
             if (GhostHealth <= 0)
             {
-                Destroy(gameObject);
+                IsAlive = false;
             }
         }
     }

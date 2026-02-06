@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 5470115247043996436}
   - component: {fileID: 1488593850424613940}
   - component: {fileID: 2977276348441239511}
+  - component: {fileID: 1888631160665049438}
   m_Layer: 7
   m_Name: Ghost
   m_TagString: Untagged
@@ -278,6 +279,18 @@ MonoBehaviour:
   _ghostAnim: {fileID: 2671333805472204828}
   _txtAttackNumber: {fileID: 5679485643980516204}
   _txtHealthNumber: {fileID: 4484872659687081186}
+--- !u!225 &1888631160665049438
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323911498200513553}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1423404025934921063
 GameObject:
   m_ObjectHideFlags: 0

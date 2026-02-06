@@ -1,10 +1,11 @@
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace Game.Ghost
 {
-    [RequireComponent(typeof(GameGhost))]
+    [RequireComponent(typeof(GameGhost), typeof(CanvasGroup), typeof(RectTransform))]
     public class GhostLayout : MonoBehaviour
     {
         [SerializeField]
@@ -28,14 +29,33 @@ namespace Game.Ghost
         [SerializeField]
         private TMP_Text _txtHealthNumber;
 
+        private Tween _dieAnimation;
+        private const int DieAnimationStepDuration = 1;
+
         private GameGhost _ghostData;
 
         private int _uiAttackNumber;
         private int _uiHealthNumber;
 
+        private void OnDestroy()
+        {
+            _dieAnimation.Kill();
+        }
+
         private void Awake()
         {
             _ghostData = GetComponent<GameGhost>();
+
+            CanvasGroup cvGroup = GetComponent<CanvasGroup>();
+            RectTransform rt = GetComponent<RectTransform>();
+
+            _dieAnimation = DOTween
+                .Sequence()
+                .AppendCallback(() => cvGroup.blocksRaycasts = false)
+                .Append(cvGroup.DOFade(0, DieAnimationStepDuration))
+                .Append(rt.DOSizeDelta(Vector2.zero, DieAnimationStepDuration))
+                .OnComplete(() => Destroy(gameObject))
+                .Pause();
         }
 
         private void Start()
@@ -62,6 +82,11 @@ namespace Game.Ghost
             {
                 _uiHealthNumber = _ghostData.GhostHealth;
                 _txtHealthNumber.SetText(_uiHealthNumber.ToString());
+            }
+
+            if (!_ghostData.IsAlive && !_dieAnimation.IsPlaying())
+            {
+                _dieAnimation.Play();
             }
         }
 

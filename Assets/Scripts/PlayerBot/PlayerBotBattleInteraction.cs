@@ -1,3 +1,4 @@
+using System.Collections;
 using Game.Ghost;
 using Game.Interactions;
 using Game.Player;
@@ -11,6 +12,10 @@ namespace Game.PlayerBot
         public bool FinishBattle { get; private set; }
 
         private GamePlayerBot _playerBotData;
+
+        private Coroutine _battleRoutine;
+
+        private const float TimeBetweenAttack = 0.5f;
 
         private void Awake()
         {
@@ -30,12 +35,32 @@ namespace Game.PlayerBot
                 return;
             }
 
+            if (_battleRoutine != null)
+            {
+                return;
+            }
+
+            _battleRoutine = StartCoroutine(Battle());
+        }
+
+        private IEnumerator Battle()
+        {
+            GameGhost[] enemies = _playerBotData.PlayerData.Enemy.SummonGhostZone.GetComponentsInChildren<GameGhost>();
+            int currentAttack = 0;
+
             foreach (GameGhost ghost in _playerBotData.PlayerData.SummonGhostZone.GetComponentsInChildren<GameGhost>())
             {
-                GameGhost enemyGhost = _playerBotData.PlayerData.Enemy.SummonGhostZone.GetComponentInChildren<GameGhost>(false);
+                GameGhost enemyGhost = null;
+
+                if (currentAttack < enemies.Length && enemies[currentAttack].IsAlive)
+                {
+                    enemyGhost = enemies[currentAttack];
+                    currentAttack++;
+                }
+
                 PlayerAttackTarget enemyAttackTarget = _playerBotData.PlayerData.Enemy.AttackTarget;
 
-                if (enemyGhost)
+                if (enemyGhost != null)
                 {
                     DispatchBattleRequest(new(ghost), new(enemyGhost));
                 }
@@ -43,9 +68,13 @@ namespace Game.PlayerBot
                 {
                     DispatchBattleRequest(new(ghost), new(enemyAttackTarget));
                 }
+
+                yield return new WaitForSeconds(TimeBetweenAttack);
             }
 
             FinishBattle = true;
+
+            _battleRoutine = null;
         }
     }
 }

@@ -9,7 +9,7 @@ namespace Game.Player
 
         public void ReducePlayerHealth(int damage)
         {
-            _player.Hp -= damage;
+            _player.Hp = Mathf.Max(0, _player.Hp - damage);
         }
     }
 }

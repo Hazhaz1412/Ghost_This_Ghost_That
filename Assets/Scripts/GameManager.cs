@@ -6,11 +6,14 @@ using Game.Interfaces;
 using Game.Player;
 using Game.Structs;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Game
 {
     public class GameManager : MonoBehaviour
     {
+        public static event UnityAction<int> OnRoundChange;
+
         private enum GameState
         {
             GameStart,
@@ -20,6 +23,13 @@ namespace Game
             AttackPlayerPlay,
             DefendPlayerPlay,
             PlayerAttack,
+        }
+
+        private int _round;
+        private void SetRound(int value)
+        {
+            OnRoundChange?.Invoke(value);
+            _round = value;
         }
 
         private const int MulliganAmount = 4;
@@ -56,8 +66,10 @@ namespace Game
 
         private void Awake()
         {
-            _player1.IsAttackTurn = true;
-            _player2.IsAttackTurn = false;
+            SetRound(0);
+
+            _player1.IsAttackTurn = Random.Range(0, 2) == 0;
+            _player2.IsAttackTurn = !_player1.IsAttackTurn;
 
             _player1.Hp = StartingHp;
             _player1.Mana = StartingMana;
@@ -104,6 +116,8 @@ namespace Game
                         if (_player1.GameState == GamePlayer.PlayerGameState.PlayerFinishedMulligan &&
                                 _player2.GameState == GamePlayer.PlayerGameState.PlayerFinishedMulligan)
                         {
+                            SetRound(_round + 1);
+
                             _state = GameState.AttackPlayerPlay;
 
                             for (int i = 0; i < StartingHandAmount; i++)
@@ -122,6 +136,8 @@ namespace Game
                     break;
                 case GameState.PlayerTurnStart:
                     {
+                        SetRound(_round + 1);
+
                         _player1.Mana++;
                         _player2.Mana++;
 
@@ -148,7 +164,7 @@ namespace Game
         {
             GameCard card = _player1.SelectedCard;
 
-            if (card == null)
+            if (card == null || _player1.Mana < card.CardMana)
             {
                 _player1.InteractGhostZone.SetActive(false);
                 _spellZoneHl.SetActive(false);
@@ -211,6 +227,11 @@ namespace Game
                 return;
             }
 
+            if (player.Mana < card.CardMana)
+            {
+                return;
+            }
+
             GameGhost ghost = Instantiate(_ghostPrefab, player.SummonGhostZone);
             ghost.CardId = card.CardId;
             ghost.tag = player.tag;
@@ -221,6 +242,8 @@ namespace Game
             {
                 selectCardInteraction.ResetState();
             }
+
+            player.Mana -= card.CardMana;
         }
 
         private void OnPlayerBattle(Battler attacker, Battler defender, GamePlayer player)
@@ -268,17 +291,26 @@ namespace Game
                     break;
                 case GameState.AttackPlayerPlay:
                     {
-                        _state = GameState.DefendPlayerPlay;
+                        if (player.GameState == GamePlayer.PlayerGameState.PlayerPlay)
+                        {
+                            _state = GameState.DefendPlayerPlay;
+                        }
                     }
                     break;
                 case GameState.DefendPlayerPlay:
                     {
-                        _state = GameState.PlayerAttack;
+                        if (player.GameState == GamePlayer.PlayerGameState.PlayerPlay)
+                        {
+                            _state = GameState.PlayerAttack;
+                        }
                     }
                     break;
                 case GameState.PlayerAttack:
                     {
-                        _state = GameState.PlayerTurnStart;
+                        if (player.GameState == GamePlayer.PlayerGameState.PlayerAttack)
+                        {
+                            _state = GameState.PlayerTurnStart;
+                        }
                     }
                     break;
                 case GameState.GameStart:
