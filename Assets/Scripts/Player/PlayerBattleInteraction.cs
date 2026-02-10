@@ -14,11 +14,13 @@ namespace Game.Player
         private GamePlayer _playerData;
 
         private InputAction _clickAction;
+        private InputAction _pointAction;
 
         private void Awake()
         {
             _playerData = GetComponent<GamePlayer>();
-            _clickAction = InputSystem.actions.FindAction("click");
+            _clickAction = InputSystem.actions.FindAction("UI/Click") ?? InputSystem.actions.FindAction("Click");
+            _pointAction = InputSystem.actions.FindAction("UI/Point") ?? InputSystem.actions.FindAction("Point");
         }
 
         private void Update()
@@ -39,12 +41,16 @@ namespace Game.Player
                     return;
             }
 
+            if (EventSystem.current == null || _clickAction == null || _pointAction == null)
+            {
+                return;
+            }
 
             if (_clickAction.WasPressedThisFrame())
             {
                 PointerEventData pointerEventData = new(EventSystem.current)
                 {
-                    position = Mouse.current.position.ReadValue()
+                    position = _pointAction.ReadValue<Vector2>()
                 };
 
                 List<RaycastResult> raycastResults = new();

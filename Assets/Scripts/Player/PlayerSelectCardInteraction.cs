@@ -11,6 +11,7 @@ namespace Game.Player
     public class PlayerSelectCardInteraction : MonoBehaviour
     {
         private InputAction _clickAction;
+        private InputAction _pointAction;
 
         private GamePlayer _playerData;
 
@@ -18,7 +19,8 @@ namespace Game.Player
 
         private void Awake()
         {
-            _clickAction = InputSystem.actions.FindAction("Click");
+            _clickAction = InputSystem.actions.FindAction("UI/Click") ?? InputSystem.actions.FindAction("Click");
+            _pointAction = InputSystem.actions.FindAction("UI/Point") ?? InputSystem.actions.FindAction("Point");
             _playerData = GetComponent<GamePlayer>();
         }
 
@@ -43,11 +45,16 @@ namespace Game.Player
                     return;
             }
 
+            if (EventSystem.current == null || _clickAction == null || _pointAction == null)
+            {
+                return;
+            }
+
             if (_clickAction.WasPressedThisFrame())
             {
                 PointerEventData pointerEventData = new(EventSystem.current)
                 {
-                    position = Mouse.current.position.ReadValue()
+                    position = _pointAction.ReadValue<Vector2>()
                 };
 
                 List<RaycastResult> raycastResults = new();
